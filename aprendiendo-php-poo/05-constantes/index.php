@@ -62,8 +62,3 @@ $usuario = new Usuario();
 echo $usuario::URL_COMPLETA;
 
 var_dump($usuario);
-
-
-
-
- ?>
