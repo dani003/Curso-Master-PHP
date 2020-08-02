@@ -1,7 +1,8 @@
 <?php
 
 function app_autoloader($class){
-    require_once 'clases/'.$class.'.php';
+    include 'clases/'.$class.'.php';
+    //require_once 'clases/'.$class.'.php';
 }
 
 //carga lo que indique la funcion app_autoloader
