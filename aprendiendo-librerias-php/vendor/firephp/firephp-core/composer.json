@@ -1,0 +1,34 @@
+{
+    "name": "firephp/firephp-core",
+    "description": "Minimal library for sending PHP variables to browsers.",
+    "type": "library",
+    "homepage": "https://github.com/firephp/firephp-core",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoph Dorn",
+            "email": "christoph@christophdorn.com",
+            "homepage": "http://christophdorn.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/firephp/firephp-core/issues",
+        "source": "https://github.com/firephp/firephp-core"
+    },
+    "autoload": {
+        "classmap": [
+            "lib/FirePHPCore/FirePHP.class.php",
+            "lib/FirePHPCore/FirePHP_TestWrapper.class.php",
+            "lib/FirePHPCore/fb.php"
+        ],
+        "files": [
+            "lib/FirePHPCore/fb.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "scripts": {
+        "test": "phpunit --testdox --configuration tests/phpunit.xml"
+    }
+}

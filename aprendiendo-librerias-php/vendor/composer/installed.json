@@ -1,0 +1,264 @@
+[
+    {
+        "name": "firephp/firephp-core",
+        "version": "v0.5.3",
+        "version_normalized": "0.5.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/firephp/firephp-core.git",
+            "reference": "2585b6868fe7d3a9d1432b738c3cc547444d0348"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/firephp/firephp-core/zipball/2585b6868fe7d3a9d1432b738c3cc547444d0348",
+            "reference": "2585b6868fe7d3a9d1432b738c3cc547444d0348",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^8"
+        },
+        "time": "2020-01-17T18:11:55+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lib/FirePHPCore/FirePHP.class.php",
+                "lib/FirePHPCore/FirePHP_TestWrapper.class.php",
+                "lib/FirePHPCore/fb.php"
+            ],
+            "files": [
+                "lib/FirePHPCore/fb.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Christoph Dorn",
+                "email": "christoph@christophdorn.com",
+                "homepage": "http://christophdorn.com"
+            }
+        ],
+        "description": "Minimal library for sending PHP variables to browsers.",
+        "homepage": "https://github.com/firephp/firephp-core"
+    },
+    {
+        "name": "masterexploder/phpthumb",
+        "version": "2.1",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/masterexploder/PHPThumb.git",
+            "reference": "01f6aa65aa3d136e175f67da2b4ea3e316770d02"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/masterexploder/PHPThumb/zipball/01f6aa65aa3d136e175f67da2b4ea3e316770d02",
+            "reference": "01f6aa65aa3d136e175f67da2b4ea3e316770d02",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-09-08T22:55:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "PHPThumb": "src",
+                "PHPThumb\\Tests": "tests"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jarrod Nettles",
+                "email": "jarrod.nettles@icloud.com"
+            },
+            {
+                "name": "Ian Selby",
+                "email": "ian@gxdlabs.com"
+            }
+        ],
+        "description": "A library for manipulating images in PHP.",
+        "homepage": "https://github.com/masterexploder/PHPThumb",
+        "keywords": [
+            "image",
+            "resize",
+            "rotate"
+        ]
+    },
+    {
+        "name": "spipu/html2pdf",
+        "version": "v5.2.2",
+        "version_normalized": "5.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/spipu/html2pdf.git",
+            "reference": "e6d8ca22347b6691bb8c2652212b1be2c89b3eff"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/spipu/html2pdf/zipball/e6d8ca22347b6691bb8c2652212b1be2c89b3eff",
+            "reference": "e6d8ca22347b6691bb8c2652212b1be2c89b3eff",
+            "shasum": ""
+        },
+        "require": {
+            "ext-gd": "*",
+            "ext-mbstring": "*",
+            "php": "^5.6 || ^7.0",
+            "tecnickcom/tcpdf": "^6.2"
+        },
+        "require-dev": {
+            "phake/phake": "^2.0",
+            "phpunit/phpunit": "^5.0"
+        },
+        "suggest": {
+            "ext-gd": "Allows to embed images into the PDF",
+            "fagundes/zff-html2pdf": "if you need to integrate Html2Pdf with Zend Framework 2 (zf2)"
+        },
+        "time": "2020-03-22T16:23:26+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Spipu\\Html2Pdf\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "OSL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Spipu",
+                "homepage": "https://github.com/spipu",
+                "role": "Developer"
+            }
+        ],
+        "description": "Html2Pdf is a HTML to PDF converter written in PHP5 (it uses TCPDF). OFFICIAL PACKAGE",
+        "homepage": "http://html2pdf.fr/",
+        "keywords": [
+            "html",
+            "html2pdf",
+            "pdf"
+        ]
+    },
+    {
+        "name": "stefangabos/zebra_pagination",
+        "version": "2.3.1",
+        "version_normalized": "2.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/stefangabos/Zebra_Pagination.git",
+            "reference": "4a003961cfb21c628a299cefee070f15ed504e67"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/stefangabos/Zebra_Pagination/zipball/4a003961cfb21c628a299cefee070f15ed504e67",
+            "reference": "4a003961cfb21c628a299cefee070f15ed504e67",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5"
+        },
+        "time": "2018-07-04T21:02:46+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "Zebra_Pagination.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Stefan Gabos",
+                "email": "contact@stefangabos.ro",
+                "homepage": "https://github.com/stefangabos",
+                "role": "Developer"
+            }
+        ],
+        "description": "A generic, Twitter Bootsrap compatible, PHP pagination library that automatically generates navigation links",
+        "homepage": "https://github.com/stefangabos/Zebra_Pagination",
+        "keywords": [
+            "paginate",
+            "pagination",
+            "paginator",
+            "paging",
+            "php"
+        ]
+    },
+    {
+        "name": "tecnickcom/tcpdf",
+        "version": "6.3.5",
+        "version_normalized": "6.3.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tecnickcom/TCPDF.git",
+            "reference": "19a535eaa7fb1c1cac499109deeb1a7a201b4549"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/19a535eaa7fb1c1cac499109deeb1a7a201b4549",
+            "reference": "19a535eaa7fb1c1cac499109deeb1a7a201b4549",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2020-02-14T14:20:12+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "config",
+                "include",
+                "tcpdf.php",
+                "tcpdf_parser.php",
+                "tcpdf_import.php",
+                "tcpdf_barcodes_1d.php",
+                "tcpdf_barcodes_2d.php",
+                "include/tcpdf_colors.php",
+                "include/tcpdf_filters.php",
+                "include/tcpdf_font_data.php",
+                "include/tcpdf_fonts.php",
+                "include/tcpdf_images.php",
+                "include/tcpdf_static.php",
+                "include/barcodes/datamatrix.php",
+                "include/barcodes/pdf417.php",
+                "include/barcodes/qrcode.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0-only"
+        ],
+        "authors": [
+            {
+                "name": "Nicola Asuni",
+                "email": "info@tecnick.com",
+                "role": "lead"
+            }
+        ],
+        "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
+        "homepage": "http://www.tcpdf.org/",
+        "keywords": [
+            "PDFD32000-2008",
+            "TCPDF",
+            "barcodes",
+            "datamatrix",
+            "pdf",
+            "pdf417",
+            "qrcode"
+        ]
+    }
+]

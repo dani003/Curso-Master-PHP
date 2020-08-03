@@ -1,0 +1,50 @@
+{
+    "uid": "https://github.com/firephp/firephp-core/",
+    "name": "firephp-core",
+    "description": "Minimal library for sending PHP variables to browsers.",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://github.com/firephp/firephp-core.git"
+        }
+    ],
+    "maintainers": [
+        {
+            "name": "Christoph Dorn",
+            "email": "christoph@christophdorn.com",
+            "web": "http://www.christophdorn.com/",
+            "alias": {
+                "github": "cadorn"
+            }
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Christoph Dorn",
+            "email": "christoph@christophdorn.com",
+            "web": "http://www.christophdorn.com/",
+            "alias": {
+                "github": "cadorn"
+            }
+        },
+        {
+            "name": "Michael Day",
+            "email": "manveru.alma@gmail.com"
+        },
+        {
+            "name": "Sokolov Innokenty",
+            "email": "sokolov.innokenty@gmail.com",
+            "alias": {
+                "github": "qbbr"
+            }
+        }
+    ],
+    "nodemonConfig": {
+        "verbose": true,
+        "ignore": [
+            ".git"
+        ],
+        "exec": "composer test",
+        "ext": "php,xml,json"
+    }
+}
