@@ -1,94 +1,26 @@
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>Tienda de Camisetas</title>
-        <link rel="stylesheet" href="assets/css/styles.css">
-    </head>
-    <body>
-        <div id='container'>
-            <!--CABECERA-->
-            <header id="header">
-                <div id="logo">
-                    <img src="assets/img/camiseta.png" alt="Camiseta logo"/>
-                    <a href="index.php">
-                        Tienda de camisetas
-                    </a>
-                </div>
-            </header>
-            <!--MENU-->
-            <nav id='menu'>
-                <ul>
-                    <li>
-                        <a href="#">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#">Inicio</a>
-                    </li>
-                </ul>
-            </nav>
-            <div id='content'>
-                <!--BARRA LATERAL-->
-                <aside id='lateral'>
-                    <div id="login" class='block_aside'>
-                        <form action="#" method="post">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" >
-                            <label for="password">Contraseña</label>
-                            <input type="password" name="password" >
-                            <input type="submit" value="Enviar">
-                        </form>
+<?php
+require_once 'autoload.php';
 
-                        <a href="#">Mis pedidos</a>
-                        <a href="#">Gestionar pedidos</a>
-                        <a href="#">Gestionar Categorias</a>
-                    </div>
-                </aside>
-                <!--CONTENIDO CENTRAL-->
-                <div id='central'>
-                    <div class="product">
-                        <img src="assets/img/camiseta.png" alt="Camiseta logo">
-                        <h2>Camiseta Azul Ancha</h2>
-                        <p>30 euros</p>
-                        <a href="#">Comprar</a>
-                    </div>
-                    <div class="product">
-                        <img src="assets/img/camiseta.png" alt="Camiseta logo">
-                        <h2>Camiseta Azul Ancha</h2>
-                        <p>30 euros</p>
-                        <a href="#">Comprar</a>
-                    </div>
-                    <div class="product">
-                        <img src="assets/img/camiseta.png" alt="Camiseta logo">
-                        <h2>Camiseta Azul Ancha</h2>
-                        <p>30 euros</p>
-                        <a href="#">Comprar</a>
-                    </div>
-                    <div class="product">
-                        <img src="assets/img/camiseta.png" alt="Camiseta logo">
-                        <h2>Camiseta Azul Ancha</h2>
-                        <p>30 euros</p>
-                        <a href="#">Comprar</a>
-                    </div>
-                </div>
-            </div>
 
-            <!--PIE DE PAGINA-->
-            <footer id='footer'>
-                <p>Desarrollado por DanielaRamirezWeb &copy; <?=date('Y')?></p>
-            </footer>
-        </div>
-    </body>
-</html>
+if(isset($_GET['controller'])){
+    $nombre_controlador = $_GET['controller'].'Controller';
+}else{
+    echo 'Controller que buscas no existe';
+    exit();
+}
+
+
+if(class_exists($nombre_controlador)){
+    $controlador = new $nombre_controlador();
+
+    if(isset($_GET['action']) && method_exists($controlador,$_GET['action'])){
+        $action = $_GET['action'];
+        $controlador->$action();
+    }else{
+        echo 'Metodo que  buscas no existe';
+    }
+
+}else{
+    echo 'La pagina que  buscas no existe';
+}
+ ?>
