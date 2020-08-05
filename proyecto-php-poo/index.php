@@ -1,5 +1,7 @@
 <?php
 require_once 'autoload.php';
+require_once 'views/layout/header.php';
+require_once 'views/layout/sidebar.php';
 
 
 if(isset($_GET['controller'])){
@@ -17,10 +19,12 @@ if(class_exists($nombre_controlador)){
         $action = $_GET['action'];
         $controlador->$action();
     }else{
-        echo 'Metodo que  buscas no existe';
+        echo 'Metodo que  buscas no existeee';
     }
 
 }else{
-    echo 'La pagina que  buscas no existe';
+    echo 'La pagina que  buscas no existeeee';
 }
+
+require_once 'views/layout/footer.php';
  ?>
