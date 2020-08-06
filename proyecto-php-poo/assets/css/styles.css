@@ -21,6 +21,14 @@ a:hover{
     color: #555555;
 }
 
+.alert_green{
+    color: green;
+}
+
+.alert_red{
+    color: red;
+}
+
 /*CONTAINER*/
 
 #container{
@@ -127,7 +135,6 @@ a:hover{
     width: 90%;
     margin: 5px auto;
     padding: 10px;
-    border: 1px solid red;
 }
 
 #lateral h3{
