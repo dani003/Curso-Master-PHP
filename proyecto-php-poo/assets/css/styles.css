@@ -29,6 +29,16 @@ a:hover{
     color: red;
 }
 
+table{
+    width: 100%;
+    border: 1px solid #555;
+    text-align: center;
+}
+td{
+    border-top: 1px solid #ccc;
+    padding: 2px;
+}
+
 /*CONTAINER*/
 
 #container{
@@ -223,6 +233,12 @@ button{
     background: green;
     color: white !important; /*Con el important forzamos a que este primero el color blanco*/
     text-decoration: none;
+}
+
+.button-small{
+    width: 120px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 /*CENTRAL*/
 
