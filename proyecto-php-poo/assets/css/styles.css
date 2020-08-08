@@ -31,7 +31,7 @@ a:hover{
 
 table{
     width: 100%;
-    border: 1px solid #555;
+    border-bottom: 1px solid #ccc;
     text-align: center;
 }
 td{
@@ -289,10 +289,26 @@ button{
     margin-right: 10px;
     margin-bottom: 10px;
     text-align: center;
+    margin-bottom: 30px;
 }
+.product a{
+     color: black;
+     text-decoration: none;
+ }
+.product a:hover{
+     color: #555;
+     text-decoration: none;
+ }
 
 .product img{
-    width: 100px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.img_carrito{
+    height: 80px;
+    display: block;
+    margin: 10px auto; //auto para centrar
 }
 
 .product h2{
@@ -305,6 +321,43 @@ button{
     margin-bottom: 10px;
 }
 
+
+#detail-product{
+    width: 100%;
+}
+
+#detail-product .image{
+    display: block;
+    width: 40%;
+    float: left;
+    margin-right: 40px
+}
+
+#detail-product img{
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+#detail-product .button{
+    width: 200px;
+    text-align: center;
+}
+#detail-product .price{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #444;
+}
+
+#detail-product .descripcion{
+    margin-bottom: 20px;
+}
+
+#detail-product .data{
+    width: 50%;
+    float: right;
+}
+
 /*FOOTER*/
 
 #footer{
@@ -314,4 +367,22 @@ button{
     color: white;
     background: #222222;
     border-top: 4px solid #01B1EA;
+}
+
+/*CARRITO*/
+.total-carrito{
+    width: 295px;
+    float: right;
+}
+
+.total-carrito h3{
+    display: block;
+    float: left;
+    margin-top: 5px;
+}
+
+.button-pedido{
+    display: block;
+    float: right;
+    width: 100px;
 }
