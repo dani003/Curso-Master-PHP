@@ -67,12 +67,17 @@ class usuarioController{
 	}
 
 	public function logout(){
+
 		if(isset($_SESSION['identity'])){
 			unset($_SESSION['identity']);
 		}
 
 		if(isset($_SESSION['admin'])){
 			unset($_SESSION['admin']);
+		}
+
+		if(isset($_SESSION['carrito'])){
+			unset($_SESSION['carrito']);
 		}
 
 		header("Location: ".base_url);
