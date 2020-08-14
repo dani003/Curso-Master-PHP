@@ -28,8 +28,21 @@ Route::get('/redirigir', 'PeliculaController@redirigir');
 
 Route::get('/formulario', 'PeliculaController@formulario');
 Route::post('/recibir', 'PeliculaController@recibir');
-
 Route::resource('usuario', 'UsuarioController');
+//Rutas de fruta
+//Route::get('/frutas/index', 'FrutaController@index');
+
+Route::group(['prefix'=>'frutas'], function(){
+    Route::get('index', 'FrutaController@index');
+    Route::get('detail/{id}', 'FrutaController@detail');
+    Route::get('crear', 'FrutaController@create');
+    Route::post('save', 'FrutaController@save'); //es por post por que vamos a guardar recursos
+    Route::get('delete/{id}', 'FrutaController@delete');
+    Route::get('editar/{id}', 'FrutaController@edit');
+    Route::post('update', 'FrutaController@update');
+});
+
+
 /*
 GET : Conseguir datos
 POST: Guardar datos
