@@ -11,9 +11,10 @@
 |
 */
 
-use App\Image;
+//use App\Image;
 
 Route::get('/', function () {
+    /*
     $images = Image::all(); // saco todas las images de la base de datos
     foreach($images as $image){
         echo 'Image path: '.$image->image_path."<br/>";
@@ -33,5 +34,18 @@ Route::get('/', function () {
         //var_dump($image); //Esto muestra todo vitaminadao (muchos arrays de todo)
     }
     die();
+    */
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
