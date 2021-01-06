@@ -3,14 +3,23 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Storage; 
+use Illuminate\Support\Facades\File;
 
 class UserController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
     public function config() {
         return view('user.config');
     }
 
     public function update(Request $request){
+
         //conseguir usuario identificado
         $user = \Auth::user();
         $id = \Auth::user()->id;
@@ -35,10 +44,26 @@ class UserController extends Controller
         $user->nick = $nick;
         $user->email = $email;
 
+        //Subir la imagen
+        $image = $request->file('image');
+        if($image){
+            //Poner nombre unico
+            $image_full = time().$image->getClientOriginalName();
+            //guardar en la carpeta Storage (storage/app/users)
+            Storage::disk('users')->put($image_full, File::get($image));
+            //Seteo el nombre de la iomagen en el objeto
+            $user->image = $image_full;
+        }
+
         //Ejecutar consulta y cambios en la base de datos
         $user->update();
 
         return redirect()->route('config')
                          ->with(['message'=>'Usuario actualizado correctamente']);
+    }
+
+    public function getImage($filename){
+        $file = Storage::disk('users')->get($filename);
+        return new Response($file, 200);
     }
 }
