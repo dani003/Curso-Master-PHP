@@ -64,10 +64,10 @@
                                 <a class="dropdown-item" href="">
                                         Mi perfil
                                     </a>
-                                    <a class="dropdown-item" href="">
+                                    <a class="dropdown-item" href="{{route('config')}}">
                                         Configuracion
                                     </a>
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                    <a class="dropdown-item" href="{{route('logout')}}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
