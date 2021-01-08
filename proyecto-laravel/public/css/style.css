@@ -3,7 +3,8 @@ form .avatar {
     margin-bottom: 15px;
 }
 
-.navbar .container-avatar {
+.navbar .container-avatar,
+.pub_image .container-avatar {
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -11,6 +12,41 @@ form .avatar {
     margin-left: 20px;
 }
 
-.navbar .container-avatar img {
+.navbar .container-avatar img,
+.pub_image .container-avatar img {
     height: 100%;
+}
+.pub_image {
+    margin-bottom: 25px;
+}
+
+.pub_image .container-avatar {
+    float: left;
+    margin-right: 15px;
+}
+
+.pub_image .data-user {
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.pub_image .nickname {
+    color: grey;
+}
+
+.image-container {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+.image-container img {
+    width: 100%;
+}
+
+.pub_image .card-body {
+    padding: 0px;
+}
+
+.pub_image .description {
+    padding: 20px;
 }
