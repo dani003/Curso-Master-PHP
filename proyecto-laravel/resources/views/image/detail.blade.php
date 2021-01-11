@@ -3,9 +3,8 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-10">
             @include('includes.message')
-            @foreach ($images as $image)
             <div class="card pub_image">
                 <div class="card-header">
 
@@ -16,12 +15,10 @@
                     @endif
 
                     <div class='data-user'>
-                        <a href="{{ route('image.detail', ['id' => $image->id])}}">
-                            {{ $image->user->name . ' ' . $image->user->surname }}
-                            <span class='nickname'>
-                                {{ ' | @' . $image->user->nick }}
-                            </span>
-                        </a>
+                        {{ $image->user->name . ' ' . $image->user->surname }}
+                        <span class='nickname'>
+                            {{ ' | @' . $image->user->nick }}
+                        </span>
                     </div>
 
                 </div>
@@ -45,13 +42,6 @@
                     </div>
 
                 </div>
-            </div>
-            @endforeach
-
-            <!-- Paginacion-->
-
-            <div class='clearfix'>
-                {{ $images->links() }}
             </div>
 
         </div>

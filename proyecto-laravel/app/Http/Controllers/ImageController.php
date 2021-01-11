@@ -14,16 +14,18 @@ class ImageController extends Controller
     {
         $this->middleware('auth');
     }
-    public function create(){
-        return view ('image.create');
+    public function create()
+    {
+        return view('image.create');
     }
 
-    public function save(Request $request){
+    public function save(Request $request)
+    {
 
         //Validacion 
-        $validate = $this->validate($request,[
+        $validate = $this->validate($request, [
             'description' => ['required'],
-            'image_path' => ['required','mimes:jpg,jpeg,png,gif']
+            'image_path' => ['required', 'mimes:jpg,jpeg,png,gif']
         ]);
 
         //Recoger datos 
@@ -31,28 +33,37 @@ class ImageController extends Controller
         $description = $request->input('description');
 
         // Asignar valores nuevo objeto
-		$user = \Auth::user();
+        $user = \Auth::user();
         $image = new Image();
-		$image->user_id = $user->id;
+        $image->user_id = $user->id;
         $image->description = $description;
-		
-		// Subir fichero
-        if($image_path){
-			$image_full = time().$image_path->getClientOriginalName();
-			Storage::disk('images')->put($image_full, File::get($image_path));
-			$image->image_path = $image_full;
-		}
-		
-		$image->save();
-		
-		return redirect()->route('home')->with([
-			'message' => 'La foto ha sido subida correctamente!!'
-		]);
 
+        // Subir fichero
+        if ($image_path) {
+            $image_full = time() . $image_path->getClientOriginalName();
+            Storage::disk('images')->put($image_full, File::get($image_path));
+            $image->image_path = $image_full;
+        }
+
+        $image->save();
+
+        return redirect()->route('home')->with([
+            'message' => 'La foto ha sido subida correctamente!!'
+        ]);
     }
 
-    public function getImage($filename){
+    public function getImage($filename)
+    {
         $file = Storage::disk('images')->get($filename);
         return new Response($file, 200);
+    }
+
+    public function detail($id)
+    {
+        $image = Image::find($id);
+
+        return view('image.detail', [
+            'image' => $image
+        ]);
     }
 }
