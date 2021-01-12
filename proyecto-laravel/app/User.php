@@ -3,7 +3,6 @@
 namespace App;
 
 use Illuminate\Notifications\Notifiable;
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
@@ -16,7 +15,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'surname', 'nick','email', 'password',
+        'role', 'name', 'surname', 'nick', 'email', 'password',
     ];
 
     /**
@@ -28,9 +27,8 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    //Relacion One To Many / de uno a muchos
-    public function images(){
-        return $this->hasMany('App\Images');
+    public function image()
+    {
+        return $this->hasMany('App\Image');
     }
-
 }
