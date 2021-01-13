@@ -8,13 +8,15 @@ class Like extends Model
 {
     protected $table = 'likes';
 
-    //Relacion Many To One / Muchos a uno
-    public function user(){
+    // Relación de Muchos a Uno
+    public function user()
+    {
         return $this->belongsTo('App\User', 'user_id');
     }
 
-    //Relacion Many To One / Muchos a uno
-    public function image(){
-        return $this->hasMany('App\Image', 'image_id');
+    // Relación de Muchos a Uno
+    public function image()
+    {
+        return $this->belongsTo('App\Image', 'image_id');
     }
 }
