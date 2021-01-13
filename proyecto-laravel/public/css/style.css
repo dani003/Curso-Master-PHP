@@ -80,3 +80,8 @@ form .avatar {
 .pub_image_detail .comments{
     padding: 20px;
 }
+
+.number_likes{
+    color:grey;
+    font-size: 11px;;
+}
