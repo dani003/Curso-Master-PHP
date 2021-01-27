@@ -54,6 +54,12 @@
 
 
                     </div>
+                    @if(Auth::user() && Auth::user()->id == $image->user->id)
+                    <div class='action'>
+                        <a href="" class="btn btn-sm btn-primary">Actualizar</a>
+                        <a href="" class="btn btn-sm btn-warning">Borrar</a>
+                    </div>
+                    @endif
 
                     <div class="clearfix"></div>
                     <div class="comments">
