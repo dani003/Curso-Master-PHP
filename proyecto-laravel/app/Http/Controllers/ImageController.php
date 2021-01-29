@@ -69,32 +69,39 @@ class ImageController extends Controller
         ]);
     }
 
-    public function delete($id){
-        $user =/Auth::user();
+    public function delete($id)
+    {
+        $user = \Auth::user();
         $image = Image::find($id);
         $comments = Comment::where('image_id', $id)->get();
-        $like = Like::where('image_id', $id)->get();
+        $likes = Like::where('image_id', $id)->get();
 
-        if($user && $image->user->id == $user->id){
+        if ($user && $image  && $image->user->id == $user->id) {
             //Eliminar comentarios
 
-            if($comments $$ count($comments) >= 1){
-                foreach($comments as $comment){
+            if ($comments && count($comments) >= 1) {
+                foreach ($comments as $comment) {
                     $comment->delete();
                 }
             }
 
             //Eliminar Likes
-            if($likes $$ count($likes) >= 1){
-                foreach($likes as $like){
+            if ($likes && count($likes) >= 1) {
+                foreach ($likes as $like) {
                     $like->delete();
                 }
             }
             //Eliminar ficheros de imagen guardados en el storage
-            Stogare::disk('images')
+            Storage::disk('images')->delete($image->image_path);
+
             //Eliminar registro de la imagen
+            $image->delete();
 
-
+            $message = array('message' => 'La imagen se ha borrado correctamente');
+        } else {
+            $message = array('message' => 'La imagen no se ha borrado');
         }
+
+        return redirect()->route('home')->with($message);
     }
 }
