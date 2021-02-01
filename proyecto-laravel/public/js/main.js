@@ -1,4 +1,4 @@
-var url = 'http://proyecto-laravel.com.devel/';
+var url = 'http://proyecto-laravel.com.devel';
 window.addEventListener("load", function () {
 
     $('.btn-like').css('cursor', 'pointer');
@@ -50,5 +50,10 @@ window.addEventListener("load", function () {
         })
     }
     dislike();
+
+    // BUSCADOR
+    $('#buscador').submit(function (e) {
+        $(this).attr('action', url + '/gente/' + $('#buscador #search').val());
+    });
 
 });
