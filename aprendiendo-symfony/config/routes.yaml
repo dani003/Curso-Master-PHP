@@ -1,3 +1,18 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+    path: /inicio
+    controller: App\Controller\HomeController::index
+
+animales:
+    path: /animales/{nombre}/{apellido}
+    controller: App\Controller\HomeController::animales
+    defaults: {nombre: 'a/n', apellido: 's/a'}
+    methods: [GET]
+    requirements:
+        nombre: '[a-zA-Z]+'
+        apellidos: '[a-zA-Z]+' 
+
+redirigir:
+    path: /redirigir
+    controller: App\Controller\HomeController::redirigir
+
+

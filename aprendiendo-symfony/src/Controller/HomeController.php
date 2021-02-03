@@ -15,6 +15,26 @@ class HomeController extends AbstractController
     {
         return $this->render('home/index.html.twig', [
             'controller_name' => 'HomeController',
+            'hello' => 'Hola Mundo con symfony 4 !!'
         ]);
+    }
+
+    public function animales($nombre, $apellido)
+    {
+        $title = 'Bienvenido a la pagina de animales';
+        return $this->render('home/animales.html.twig', [
+            'title' => $title,
+            'nombre' => $nombre,
+            'apellido' => $apellido,
+        ]);
+    }
+    public function redirigir()
+    {
+        //return $this->redirectToRoute('animales', [
+        //    'nombre' => 'Juan',
+        //    'apellidos' => 'Lopez',
+        //]);
+
+        return $this->redirect('https://www.google.com');
     }
 }
