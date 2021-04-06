@@ -1,2 +1,75 @@
-<h1>{{title}}<h1>
-<h2>Tu nombre es: {{nombre}} {{apellido}}<h2>
+{% extends 'layouts/master.html.twig' %}
+
+{% block titulo %}
+	Animales
+{% endblock %}
+
+{% block cabecera %}
+	{{parent()}}
+	<h1>Animales</h1>
+	<h2>{{title}}<h2>
+		{% endblock %}
+
+		{% block contenido %}
+			{#comentario <h1>{{title}}<h1> <h2>Tu nombre es: {{nombre}} {{apellido}}<h2> #}
+
+			{# Crear Variables en twig #}
+			{% set perro = 'Pastor aleman' %}
+				<h4>
+				El perro es un:
+			{{ perro }}
+			</h4>
+
+			{# trabajar con arrays #}
+
+			{{ dump(animales) }}
+			{{ animales[1] }}
+
+			{# arrays asociativo #}
+			{{ dump(aves) }}
+			{{ aves.tipo ~ ' - ' ~ aves.raza}}
+
+			{# condicional #}
+				{% if aves.tipo == 'palomo' %}
+					<h1>
+				Cuidado un palomo volador
+				</h1>
+			{% else %}
+				<h1>
+					No hay palomo a la vista</h1>
+			{% endif %}
+			<hr/>
+
+			{# Bucle #}
+			{% if animales|length >= 0 %}
+				<ul>
+					{% for animal in animales %}
+						<li>
+							{{animal}}
+						</li>
+					{% endfor %}
+				</ul>
+			{% endif %}
+			<hr/>
+
+			{# Enumera el larego del array #}
+			{% for i in 0..animales|length %}
+				{{i}}<br>
+			{% endfor %}
+			<hr/>
+
+			{# Para buscar con que letra o letra empieza (stats) o acaba (ends) la palabrra del array#}
+			{% if aves.color starts with 'u' %}
+				<h1>
+					Empieza por g
+				</h1>
+			{% else %}
+				<h1>
+					Empieza por g
+				</h1>
+			{% endif %}
+			<hr/>
+
+			{# Funciones predefinidas#}
+			{{ include('partials/funciones.html.twig', {'nombre':'daniela'})}}
+		{% endblock %}

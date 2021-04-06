@@ -1,0 +1,28 @@
+<h1>Funciones predefinidas</h1>
+<h5>pasando nombre desde otro template:
+	{{nombre}}</h5>
+<h5>Minimo o maximo de un array</h5>
+{{ min ([9,11,6,99,2])}}
+<br/>
+{{ max ([9,11,6,99,2])}}<br/>
+
+<h5>Aleatorio de un array</h5>
+{{ random(animales)}}<br/>
+
+<h5>Enumeracion indicando el salto (de 5 en 5 en este caso)</h5>
+{% for i in range(0, 100, 5) %}
+	{{i}}<br/>
+{% endfor %}
+
+{# Filtros #}
+<h1>Filtros</h1>
+{{animales|length}}
+{% set email = '  dani@gmail.com    ' %}
+{{email}}
+{{dump(email)}}
+<h5>para quitar los espacios entre otros</h5>
+{{dump(email|trim|upper|lower)}}
+
+<h1> Extensiopnes personalizadas</h1>
+{{multiplicar(2)|raw}}
+{{12|multiplicar|raw}}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>
+        {%block titulo %} Inicio {% endblock %} - Master en php
+        </title>
+    </head>
+    <body>
+        <div id="header">
+            {%block cabecera %}
+                <h1>Cabecera de la plantilla</h1>
+            {% endblock %}
+        </div>
+        <hr>
+        <section id="content">
+            {%block contenido %}
+                <p>Contenido por defecto</p>
+            {% endblock %}
+        </section>
+        <hr>
+        <footer>
+            daniela.ramirez@gmail.com
+        </footer>
+    </body>
+</html>
