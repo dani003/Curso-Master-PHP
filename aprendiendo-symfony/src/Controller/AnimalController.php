@@ -14,6 +14,7 @@ class AnimalController extends AbstractController
      */
     public function index(): Response
     {
+        $em = $this->getDoctrine()->getManager();
         $animal_repo = $this->getDoctrine()->getRepository(Animal::class);
 
         //Todos los animales
@@ -26,7 +27,36 @@ class AnimalController extends AbstractController
             'id' => 'DESC'
         ]);
 
-        var_dump($animal);
+        //var_dump($animal);
+
+        //Query builder (una opcion tambien sin getParameter->andWhere("a.raza = 'Africana'"))
+        $qb = $animal_repo->createQueryBuilder('a')
+            //Sin ->andWhere y ->setParameter me trae todo los animales
+            ->andWhere("a.raza = :raza ")
+            ->setParameter('raza', 'Africana')
+            ->orderBy('a.id', 'DESC')
+            ->getQuery();
+
+        $resulset = $qb->execute();
+
+        //var_dump($resulset);
+
+        //DQL
+        $dql = "SELECT a FROM App\Entity\Animal a WHERE a.raza = 'Africana' ORDER BY a.id DESC";
+        $query = $em->createQuery($dql);
+
+        $resulset = $query->execute();
+
+        //var_dump($resulset);
+
+        //SQL
+        $conection = $this->getDoctrine()->getConnection();
+        $sql = "SELECT * FROM animales ORDER BY id DESC";
+        $prepare = $conection->prepare($sql);
+        $prepare->execute();
+        $resulset = $prepare->fetchAll();
+
+        var_dump($resulset);
 
         return $this->render('animal/index.html.twig', [
             'controller_name' => 'AnimalController',
