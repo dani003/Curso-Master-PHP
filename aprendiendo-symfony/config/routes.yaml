@@ -15,4 +15,27 @@ redirigir:
     path: /redirigir
     controller: App\Controller\HomeController::redirigir
 
+animal_index:
+    path: /animal/index
+    controller: App\Controller\AnimalController::index
+
+animal_save:
+    path: /animal/save
+    controller: App\Controller\AnimalController::save
+
+animal_detail:
+    path: /animal/{id}
+    controller: App\Controller\AnimalController::animal
+
+animal_update:
+    path: /animal/update/{id}
+    controller: App\Controller\AnimalController::update
+
+animal_delete:
+    path: /animal/delete/{id}
+    controller: App\Controller\AnimalController::delete
+
+
+
+
 
