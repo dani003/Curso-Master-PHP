@@ -4,14 +4,68 @@ namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use App\Entity\Animal;
 
+use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\HttpFoundation\Session\Session;
+
+use Symfony\Component\Validator\Validation;
+use Symfony\Component\Validator\Constraints\Email;
+
+use App\Form\AnimalType;
+
 class AnimalController extends AbstractController
 {
+    public function ValidarEmail($email)
+    {
+        $validator = Validation::createValidator();
+        $errores = $validator->validate($email, [
+            new Email()
+        ]);
+
+        if (count($errores) != 0) {
+            echo "El email no se ha validado";
+
+            foreach ($errores as $error) {
+                echo $error->getMessage() . "</br>";
+            }
+        } else {
+            echo "El email Si se ha validado";
+        }
+        var_dump($email);
+        die();
+    }
+
     /**
      * @Route("/animal", name="animal")
      */
+    public function crearAnimal(Request $request)
+    {
+        $animal = new Animal();
+        $form = $this->createForm(AnimalType::class, $animal);
+
+
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($animal);
+            $em->flush();
+
+            //Session falsh
+            $session = new Session();
+            $session->getFlashBag()->add('message', 'animal creado');
+
+            return $this->redirectToRoute('crear_animal');
+        }
+
+        return $this->render('animal/crear-animal.html.twig', [
+            'form' => $form->createView()
+        ]);
+    }
     public function index(): Response
     {
         $em = $this->getDoctrine()->getManager();
@@ -28,7 +82,7 @@ class AnimalController extends AbstractController
         ]);
 
         //var_dump($animal);
-
+        /*
         //Query builder (una opcion tambien sin getParameter->andWhere("a.raza = 'Africana'"))
         $qb = $animal_repo->createQueryBuilder('a')
             //Sin ->andWhere y ->setParameter me trae todo los animales
@@ -38,6 +92,8 @@ class AnimalController extends AbstractController
             ->getQuery();
 
         $resulset = $qb->execute();
+        */
+
 
         //var_dump($resulset);
 
@@ -56,7 +112,11 @@ class AnimalController extends AbstractController
         $prepare->execute();
         $resulset = $prepare->fetchAll();
 
-        var_dump($resulset);
+        //var_dump($resulset);
+
+        //Repositorio
+        $animal = $animal_repo->getAnimalsOrderId('DESC');
+        var_dump($animal);
 
         return $this->render('animal/index.html.twig', [
             'controller_name' => 'AnimalController',
@@ -64,8 +124,11 @@ class AnimalController extends AbstractController
         ]);
     }
 
-    public function save()
+    public function save(Request $request)
     {
+        $request->get('tipo');
+
+        /*
         //Guardar en una tabla de la base de datos
 
         //Cargo el em
@@ -84,6 +147,7 @@ class AnimalController extends AbstractController
         $entityManager->flush();
 
         return new Response('El animal guardado tiene el id ' . $animal->getId());
+        */
     }
     public function animal(Animal $animal)
     {
