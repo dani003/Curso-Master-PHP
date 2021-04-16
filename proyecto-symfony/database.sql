@@ -12,6 +12,10 @@ CREATE TABLE IF NOT EXISTS users(
     CONSTRAINT pk_users PRIMARY KEY(id)
 )ENGINE=InnoDb;
 
+INSERT INTO users VALUES(NULL, 'ROLE_USER', 'Daniela', 'Ramirez', 'daniela@gmail.com', 'password', CURTIME());
+INSERT INTO users VALUES(NULL, 'ROLE_USER', 'Esmeralda', 'Silva', 'Esme@gmail.com', 'password', CURTIME());
+INSERT INTO users VALUES(NULL, 'ROLE_USER', 'Ariel', 'Silva', 'Ariel@gmail.com', 'password', CURTIME());
+
 CREATE TABLE IF NOT EXISTS tasks(
     id          int(255) auto_increment not null,
     user_id     int(255) not null,
@@ -23,3 +27,7 @@ CREATE TABLE IF NOT EXISTS tasks(
     CONSTRAINT pk_tasks PRIMARY KEY(id),
     CONSTRAINT fk_task_user FOREIGN KEY(user_id) REFERENCES users(id)
 )ENGINE=InnoDb;
+
+INSERT INTO tasks VALUES(NULL, 1,'Tarea 1', 'Contenido de prueba 1', 'high', 40, CURTIME());
+INSERT INTO tasks VALUES(NULL, 2,'Tarea 2', 'Contenido de prueba 2', 'high', 45, CURTIME());
+INSERT INTO tasks VALUES(NULL, 1,'Tarea 3', 'Contenido de prueba 3', 'high', 60, CURTIME());
