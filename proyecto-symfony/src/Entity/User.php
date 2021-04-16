@@ -68,8 +68,9 @@ class User
      */
     private $createdAt;
     /**
+     * @var \Tasks
      *
-     * @ORM\OneToMany(targetEntity="App\Entity", mappedBy="user")
+     * @ORM\OneToMany(targetEntity="App\Entity\Task", mappedBy="user")
      */
     private $tasks;
 
@@ -154,10 +155,8 @@ class User
 
         return $this;
     }
-    /**
-     * @return Collection|Task[]
-     */
-    public function getTasks(): Collection
+
+    public function getTasks()
     {
         return $this->tasks;
     }
