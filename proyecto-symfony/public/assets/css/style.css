@@ -61,6 +61,11 @@ body{
     color: white;
 }
 
+#menu li.right{
+    float: right !important;
+    border-right: 0px;
+    border-left: 1px solid #ccc;
+}
 
 label{
     display: block;
@@ -92,3 +97,4 @@ input[type="submit"]{
 
     background:green;
 }
+

@@ -5,3 +5,11 @@ tasks:
 register:
     path: /registro
     controller: App\Controller\UserController::register
+
+login:
+    path: /login
+    controller: App\Controller\UserController::login
+
+logout:
+    path: /logout
+ 
