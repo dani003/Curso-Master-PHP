@@ -6,6 +6,7 @@
         {# Run `composer require symfony/webpack-encore-bundle`
            and uncomment the following Encore helpers to start using Symfony UX #}
         {% block stylesheets %}
+            <link href="{{ asset('assets/css/style.css')}}" type="text/css" rel="stylesheet"/>
             {#{{ encore_entry_link_tags('app') }}#}
         {% endblock %}
 
@@ -14,6 +15,18 @@
         {% endblock %}
     </head>
     <body>
+        {% block header %}
+        <div id="header">
+            <h2>Tareas Symfony</h2>
+            <ul id="menu">
+                <li><a href="{{ path('tasks') }}">Inicio</a></li>
+                <li><a href="">Mis Tareas</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="{{ path('register') }}">Registro</a></li>
+            </ul>
+        </div>
+        <div class="clearfix"> </div>
+        {% endblock %}
         {% block body %}{% endblock %}
     </body>
 </html>

@@ -1,3 +1,7 @@
-index:
-    path: /tasks
+tasks:
+    path: /
     controller: App\Controller\TaskController::index
+
+register:
+    path: /registro
+    controller: App\Controller\UserController::register
