@@ -98,3 +98,42 @@ input[type="submit"]{
     background:green;
 }
 
+table th,
+table td{
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 1px solid #eee;
+    background: rgb(151, 237, 243);
+    text-align: center;
+}
+
+table td{
+    background: cornsilk;
+}
+table{
+    width: 100%;
+}
+
+.buttons a{
+    text-decoration: none;
+    border: 1px solid rgb(241, 146, 226);
+    padding: 10px;
+    color: white;
+    
+    border-radius: 10px;;
+}
+
+.buttons .btn-show{
+    background: rgb(153, 245, 153);
+    border: 1px solid green;
+}
+
+.buttons .btn-edit{
+    background: rgb(252, 201, 106);
+    border: 1px solid orange;
+}
+.buttons .btn-delete{
+    background: rgb(248, 131, 131);
+    border: 1px solid red;
+}
