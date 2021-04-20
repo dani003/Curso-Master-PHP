@@ -76,7 +76,9 @@ label{
 
 input[type="text"],
 input[type="password"],
-input[type="email"]{
+input[type="email"],
+textarea,
+select{
     width: 70%;
     padding: 8px;
 }
@@ -123,6 +125,9 @@ table{
     
     border-radius: 10px;;
 }
+.buttons{
+    width: 33%;
+}
 
 .buttons .btn-show{
     background: rgb(153, 245, 153);
@@ -137,3 +142,8 @@ table{
     background: rgb(248, 131, 131);
     border: 1px solid red;
 }
+
+.data-task{
+    color: grey;
+}
+

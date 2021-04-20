@@ -2,6 +2,19 @@ tasks:
     path: /
     controller: App\Controller\TaskController::index
 
+task_detail:
+    path: /tarea/{id}
+    controller: App\Controller\TaskController::detail
+
+task_creation:
+    path: /crear-tarea
+    controller: App\Controller\TaskController::creation
+
+my_tasks:
+    path: /mis-tareas
+    controller: App\Controller\TaskController::myTasks
+
+
 register:
     path: /registro
     controller: App\Controller\UserController::register

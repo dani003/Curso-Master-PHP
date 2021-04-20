@@ -1,0 +1,28 @@
+<table>
+	<tr>
+		<th>Tarea</th>
+		<th>Prioridad</th>
+		<th>Horas presupuestadas</th>
+		<th>Acciones</th>
+	</tr>
+	{% for task in tasks %}
+		<tr>
+			<td>{{ task.title }}</td>
+			<td>
+				{% if task.priority == 'high' %}
+					{{'Alta'}}
+				{% elseif task.priority == 'low'%}
+					{{'Baja'}}
+				{% elseif task.priority == 'medium'%}
+					{{'Media'}}
+				{% endif %}
+			</td>
+			<td>{{ task.hours }}</td>
+			<td class="buttons">
+				<a href="{{ path('task_detail', {'id':task.id}) }}" class="btn-show">Ver</a>
+				<a href="" class="btn-edit">Editar</a>
+				<a href="" class="btn-delete">Borrar</a>
+			</td>
+		</tr>
+	{% endfor %}
+</table>
