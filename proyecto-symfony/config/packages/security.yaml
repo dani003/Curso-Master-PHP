@@ -22,10 +22,11 @@ security:
                 login_path: login
                 check_path: login
                 provider: proveedor
+                default_target_path: tasks
                 
             logout:
                 path: /logout
-                target: /login
+                target: /
 
 
             # activate different ways to authenticate
@@ -37,5 +38,10 @@ security:
     # Easy way to control access for large sections of your site
     # Note: Only the *first* access control that matches will be used
     access_control:
-        # - { path: ^/admin, roles: ROLE_ADMIN }
-        # - { path: ^/profile, roles: ROLE_USER }
+         - { path: ^/tareas, roles: ROLE_USER }
+         - { path: ^/tarea, roles: ROLE_USER }
+         - { path: ^/crear-tarea, roles: ROLE_USER }
+         - { path: ^/mis-tareas, roles: ROLE_USER }
+         - { path: ^/editar-tarea, roles: ROLE_USER }
+         - { path: ^/borrar-tarea, roles: ROLE_USER }
+         - { path: ^/profile, roles: ROLE_USER }
