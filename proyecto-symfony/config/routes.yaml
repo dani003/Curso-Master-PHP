@@ -6,6 +6,11 @@ task_detail:
     path: /tarea/{id}
     controller: App\Controller\TaskController::detail
 
+task_delete:
+    path: /borrar-tarea/{id}
+    controller: App\Controller\TaskController::delete
+
+
 task_creation:
     path: /crear-tarea
     controller: App\Controller\TaskController::creation

@@ -115,4 +115,23 @@ class TaskController extends AbstractController
             'form' => $form->createView()
         ]);
     }
+
+    public function delete(Task $task, UserInterface $user)
+    {
+        if (!$user || $user->getId() != $task->getUser()->getId()) {
+            return $this->redirectToRoute('tasks');
+        }
+
+        if (!$task) {
+            return $this->redirectToRout('tasks');
+        }
+
+        $em = $this->getDoctrine()->getManager();
+        //Aqui se borra de doctrine
+        $em->remove($task);
+        //Aqui se borra de la base de datos
+        $em->flush();
+
+        return $this->redirectToRoute('tasks');
+    }
 }
