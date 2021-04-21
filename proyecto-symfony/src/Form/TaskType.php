@@ -34,7 +34,7 @@ class TaskType extends AbstractType
                 'label' => 'Horas'
             ))
             ->add('submit', SubmitType::class, array(
-                'label' => 'Registrarse'
+                'label' => 'Guardar'
             ));
     }
 }
