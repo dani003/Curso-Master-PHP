@@ -1,0 +1,7 @@
+.appearance_page_about-bard .bard-activation-notice {
+	display: none !important;
+}
+
+.bard-activation-notice {
+	position: relative;
+}

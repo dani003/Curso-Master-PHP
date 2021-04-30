@@ -1,0 +1,338 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Related Posts Thumbnails v1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-06-11 20:50+0000\n"
+"Last-Translator: lian <lian00@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: related-posts-thumbnails.php:397
+#@ related-posts-thumbnails
+msgid "Related Posts Thumbnails"
+msgstr "Related Posts Thumbnails"
+
+#: related-posts-thumbnails.php:397
+#@ related-posts-thumbnails
+msgid "Related Posts Thumbs"
+msgstr "Related Posts Thumbs"
+
+#: related-posts-thumbnails.php:403
+#@ related-posts-thumbnails
+msgid "No access"
+msgstr "Accès refusé"
+
+#: related-posts-thumbnails.php:450
+#@ related-posts-thumbnails
+msgid "Settings updated"
+msgstr "Réglages mis à jour"
+
+#: related-posts-thumbnails.php:525
+#@ related-posts-thumbnails
+msgid "Related Posts Thumbnails Settings"
+msgstr "Réglages de Related Posts Thumbnails"
+
+#: related-posts-thumbnails.php:531
+#@ related-posts-thumbnails
+msgid "General Display Options"
+msgstr "Options d'affichage général"
+
+#: related-posts-thumbnails.php:534
+#@ related-posts-thumbnails
+msgid "Automatically append to the post content"
+msgstr "Rajouter automatiquement au contenu du billet"
+
+#: related-posts-thumbnails.php:537
+#@ related-posts-thumbnails
+msgid "Or use <b>&lt;?php get_related_posts_thumbnails(); ?&gt;</b> in the Loop"
+msgstr "Ou utiliser <b>&lt;?php get_related_posts_thumbnails(); ?&gt;</b> à l'intérieur de la boucle."
+
+#: related-posts-thumbnails.php:548
+#@ related-posts-thumbnails
+msgid "Page type"
+msgstr "Type de page"
+
+#: related-posts-thumbnails.php:551
+#@ related-posts-thumbnails
+msgid "Show on single posts only"
+msgstr "Afficher seulement dans les billets uniques"
+
+#: related-posts-thumbnails.php:481
+#@ related-posts-thumbnails
+msgid "Categories"
+msgstr "Catégories"
+
+#: related-posts-thumbnails.php:773
+#@ related-posts-thumbnails
+msgid "All"
+msgstr "Toutes"
+
+#: related-posts-thumbnails.php:585
+#@ related-posts-thumbnails
+msgid "Top text"
+msgstr "Texte de présentation"
+
+#: related-posts-thumbnails.php:591
+#@ related-posts-thumbnails
+msgid "Number of similar posts to display"
+msgstr "Nombre de billets similaires à afficher"
+
+#: related-posts-thumbnails.php:597
+#@ related-posts-thumbnails
+msgid "Default image URL"
+msgstr "Adresse URL de l'image par défaut"
+
+#: related-posts-thumbnails.php:603
+#: related-posts-thumbnails.php:615
+#: related-posts-thumbnails.php:642
+#@ related-posts-thumbnails
+msgid "Thumbnails source"
+msgstr "Source des miniatures"
+
+#: related-posts-thumbnails.php:618
+#@ related-posts-thumbnails
+msgid "Post-thumbnails name"
+msgstr "Nom des miniatures des billets"
+
+#: related-posts-thumbnails.php:626
+#@ related-posts-thumbnails
+msgid "Your theme has to support post-thumbnails to have more choices"
+msgstr "Votre thème doit être compatible avec les miniatures de billets pour avoir plus de choix"
+
+#: related-posts-thumbnails.php:645
+#@ related-posts-thumbnails
+msgid "Custom field name"
+msgstr "Nom du champ personnalisé"
+
+#: related-posts-thumbnails.php:651
+#@ related-posts-thumbnails
+msgid "Size"
+msgstr "Taille"
+
+#: related-posts-thumbnails.php:653
+#@ related-posts-thumbnails
+msgid "Width"
+msgstr "Largeur"
+
+#: related-posts-thumbnails.php:654
+#@ related-posts-thumbnails
+msgid "Height"
+msgstr "Hauteur"
+
+#: related-posts-thumbnails.php:667
+#@ related-posts-thumbnails
+msgid "Style options"
+msgstr "Options de style"
+
+#: related-posts-thumbnails.php:681
+#@ related-posts-thumbnails
+msgid "Background color"
+msgstr "Couleur de fond"
+
+#: related-posts-thumbnails.php:687
+#@ related-posts-thumbnails
+msgid "Background color on mouse over"
+msgstr "Couleur de fond au passage de la souris"
+
+#: related-posts-thumbnails.php:693
+#@ related-posts-thumbnails
+msgid "Border color"
+msgstr "Couleur du cadre"
+
+#: related-posts-thumbnails.php:699
+#@ related-posts-thumbnails
+msgid "Font color"
+msgstr "Couleur de la police de caractères"
+
+#: related-posts-thumbnails.php:705
+#@ related-posts-thumbnails
+msgid "Font family"
+msgstr "Police de caractères"
+
+#: related-posts-thumbnails.php:711
+#@ related-posts-thumbnails
+msgid "Font size"
+msgstr "Taille de la police de caractères"
+
+#: related-posts-thumbnails.php:717
+#@ related-posts-thumbnails
+msgid "Text maximum length"
+msgstr "Taille maximum du texte"
+
+#: related-posts-thumbnails.php:720
+#@ related-posts-thumbnails
+msgid "Set 0 for no title"
+msgstr "Mettre 0 pour ne pas avoir de titre"
+
+#: related-posts-thumbnails.php:724
+#@ related-posts-thumbnails
+msgid "Excerpt maximum length"
+msgstr "Taille maximum de l'extrait"
+
+#: related-posts-thumbnails.php:727
+#@ related-posts-thumbnails
+msgid "Set 0 for no excerpt"
+msgstr "Mettre 0 pour ne pas avoir d'extrait"
+
+#: related-posts-thumbnails.php:731
+#@ related-posts-thumbnails
+msgid "Text block height"
+msgstr "Hauteur du bloc de texte"
+
+#: related-posts-thumbnails.php:739
+#@ related-posts-thumbnails
+msgid "Relation Builder Options"
+msgstr "Options du gestionnaire de liens"
+
+#: related-posts-thumbnails.php:742
+#@ related-posts-thumbnails
+msgid "Relation based on"
+msgstr "Liens basés sur "
+
+#: related-posts-thumbnails.php:481
+#@ related-posts-thumbnails
+msgid "Tags"
+msgstr "Tags"
+
+#: related-posts-thumbnails.php:481
+#@ related-posts-thumbnails
+msgid "Categories and Tags"
+msgstr "Catégories et tags"
+
+#: related-posts-thumbnails.php:762
+#@ related-posts-thumbnails
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications "
+
+#: related-posts-thumbnails.php:766
+#@ related-posts-thumbnails
+msgid "If you experience some problems with this plugin please let me know about it on <a href=\"http://wordpress.shaldybina.com/plugins/related-posts-thumbnails/\">Plugin's homepage</a>. If you think this plugin is awesome please vote on <a href=\"http://wordpress.org/extend/plugins/related-posts-thumbnails/\">Wordpress plugin page</a>. Thanks!"
+msgstr "Si vous rencontrez des problèmes avec ce plugin, faites le moi savoir à  <a href=\"http://wordpress.shaldybina.com/plugins/related-posts-thumbnails/\">la page du plugin</a>. Si vous trouvez ce plugin formidable, n'hésitez pas à aller voter sur  <a href=\"http://wordpress.org/extend/plugins/related-posts-thumbnails/\">la page Wordpress du plugin</a>. Merci d'avance !"
+
+#: related-posts-thumbnails.php:826
+#@ default
+msgid "Title:"
+msgstr ""
+
+#: related-posts-thumbnails.php:541
+#@ related-posts-thumbnails
+msgid "Developer mode"
+msgstr "Mode pour développeur"
+
+#: related-posts-thumbnails.php:544
+#@ related-posts-thumbnails
+msgid "This will add debugging information in HTML source"
+msgstr "Ceci ajoutera des informations de debuggage dans la source HTML"
+
+#: related-posts-thumbnails.php:411
+#@ related-posts-thumbnails
+msgid "Wrong date"
+msgstr "Date fausse "
+
+#: related-posts-thumbnails.php:453
+#@ related-posts-thumbnails
+msgid "Settings update failed"
+msgstr "Mise à jour des réglage échouée "
+
+#: related-posts-thumbnails.php:566
+#@ related-posts-thumbnails
+msgid "Categories on which related thumbnails will appear"
+msgstr "Catégories pour lesquelles les miniatures relatives vont apparaître "
+
+#: related-posts-thumbnails.php:572
+#@ related-posts-thumbnails
+msgid "Categories that will appear in related thumbnails"
+msgstr "Catégories qui seront incluses dans les miniatures relatives "
+
+#: related-posts-thumbnails.php:578
+#@ related-posts-thumbnails
+msgid "Include only posts after"
+msgstr "Inclure uniquement les billets après le "
+
+#: related-posts-thumbnails.php:580
+#@ related-posts-thumbnails
+msgid "Year"
+msgstr "Année"
+
+#: related-posts-thumbnails.php:580
+#@ related-posts-thumbnails
+msgid "Month"
+msgstr "Mois"
+
+#: related-posts-thumbnails.php:580
+#@ related-posts-thumbnails
+msgid "Day"
+msgstr "Jour"
+
+#: related-posts-thumbnails.php:580
+#@ related-posts-thumbnails
+msgid "Leave empty for all posts dates"
+msgstr "Laisser vide pour prendre en compte toutes les dates de billet "
+
+#: related-posts-thumbnails.php:658
+#@ related-posts-thumbnails
+msgid "Theme resize url"
+msgstr "URL de redimensionnement par thème "
+
+#: related-posts-thumbnails.php:661
+#@ related-posts-thumbnails
+msgid "If your theme resizes images, enter URL to its resizing PHP file"
+msgstr "Si votre thème redimensionne les images, entrez l'URL de votre fichier PHP de redimensionnement. "
+
+#: related-posts-thumbnails.php:481
+#@ related-posts-thumbnails
+msgid "Random"
+msgstr "Au hasard "
+
+#: related-posts-thumbnails.php:480
+#@ related-posts-thumbnails
+msgid "Blocks"
+msgstr "Blocs"
+
+#: related-posts-thumbnails.php:480
+#@ related-posts-thumbnails
+msgid "List"
+msgstr "Liste "
+
+#: related-posts-thumbnails.php:670
+#@ related-posts-thumbnails
+msgid "Output style"
+msgstr "Style de sortie "
+
+#: related-posts-thumbnails.php:677
+#@ related-posts-thumbnails
+msgid "Turn off plugin styles"
+msgstr "Désactiver les styles du plugin "
+
+#: related-posts-thumbnails.php:632
+#@ related-posts-thumbnails
+msgid "Show posts only with thumbnails"
+msgstr "Afficher uniquement les billets avec miniatures"
+
+#: related-posts-thumbnails.php:635
+#@ related-posts-thumbnails
+msgid "Only posts with assigned Featured Image"
+msgstr "Uniquement les billets avec une image à la une"
+
+#: related-posts-thumbnails.php:481
+#@ related-posts-thumbnails
+msgid "Custom"
+msgstr "Personnalisé"
+
+#: related-posts-thumbnails.php:555
+#@ related-posts-thumbnails
+msgid "Post types"
+msgstr "Types de billet"
+

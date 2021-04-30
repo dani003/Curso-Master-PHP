@@ -1,0 +1,575 @@
+# Russian translation of Related-Posts-Thubmnails plugin
+# Copyright (C) 2010 M.I.Shaldybina
+# This file is distributed under the same license as the Related-Posts-Thubmnails package.
+# Maria Shaldybina <mary@shaldybina.com>, 2010
+msgid ""
+msgstr ""
+"Project-Id-Version: Related Posts Thubmnails 1.2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-19 17:17-0700\n"
+"PO-Revision-Date: 2010-10-02 13:20+0200\n"
+"Last-Translator: Ali Hikmet Küpeli <ramseszz@msn.com>\n"
+"Language-Team: tr_TR <www.kuzublog.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: related-posts-thumbnails.php:148
+#: related-posts-thumbnails.php:194
+#: related-posts-thumbnails.php:231
+#: related-posts-thumbnails.php:232
+#: related-posts-thumbnails.php:273
+#: related-posts-thumbnails.php:308
+#: related-posts-thumbnails.php:311
+#: related-posts-thumbnails.php:354
+msgid "Related Posts Thumbnails"
+msgstr ""
+
+#: related-posts-thumbnails.php:148
+#: related-posts-thumbnails.php:194
+#: related-posts-thumbnails.php:231
+#: related-posts-thumbnails.php:232
+#: related-posts-thumbnails.php:273
+#: related-posts-thumbnails.php:308
+#: related-posts-thumbnails.php:311
+#: related-posts-thumbnails.php:354
+msgid "Related Posts Thumbs"
+msgstr ""
+
+#: related-posts-thumbnails.php:154
+#: related-posts-thumbnails.php:200
+#: related-posts-thumbnails.php:237
+#: related-posts-thumbnails.php:238
+#: related-posts-thumbnails.php:279
+#: related-posts-thumbnails.php:314
+#: related-posts-thumbnails.php:317
+#: related-posts-thumbnails.php:360
+msgid "No access"
+msgstr "Erişim sağlanamadı"
+
+#: related-posts-thumbnails.php:170
+#: related-posts-thumbnails.php:222
+#: related-posts-thumbnails.php:261
+#: related-posts-thumbnails.php:263
+#: related-posts-thumbnails.php:305
+#: related-posts-thumbnails.php:354
+#: related-posts-thumbnails.php:358
+#: related-posts-thumbnails.php:403
+msgid "Settings updated"
+msgstr "Ayarlar güncellendi"
+
+#: related-posts-thumbnails.php:182
+#: related-posts-thumbnails.php:239
+#: related-posts-thumbnails.php:281
+#: related-posts-thumbnails.php:283
+#: related-posts-thumbnails.php:326
+#: related-posts-thumbnails.php:404
+#: related-posts-thumbnails.php:408
+#: related-posts-thumbnails.php:464
+msgid "Related Posts Thumbnails Settings"
+msgstr "Resimli Benzer Yazılar Eklenti Ayarları"
+
+#: related-posts-thumbnails.php:188
+#: related-posts-thumbnails.php:245
+#: related-posts-thumbnails.php:287
+#: related-posts-thumbnails.php:289
+#: related-posts-thumbnails.php:332
+#: related-posts-thumbnails.php:410
+#: related-posts-thumbnails.php:414
+#: related-posts-thumbnails.php:470
+msgid "General Display Options"
+msgstr "Genel Ayarlar"
+
+#: related-posts-thumbnails.php:191
+msgid "Display options"
+msgstr "Görüntüleme Seçenekleri"
+
+#: related-posts-thumbnails.php:194
+#: related-posts-thumbnails.php:251
+#: related-posts-thumbnails.php:300
+#: related-posts-thumbnails.php:302
+#: related-posts-thumbnails.php:352
+#: related-posts-thumbnails.php:430
+#: related-posts-thumbnails.php:434
+#: related-posts-thumbnails.php:490
+msgid "Show on single posts only"
+msgstr "Sadece yazılara dahil et"
+
+#: related-posts-thumbnails.php:198
+#: related-posts-thumbnails.php:280
+#: related-posts-thumbnails.php:329
+#: related-posts-thumbnails.php:331
+#: related-posts-thumbnails.php:381
+#: related-posts-thumbnails.php:453
+#: related-posts-thumbnails.php:457
+#: related-posts-thumbnails.php:513
+msgid "Top text"
+msgstr "Üst başlık"
+
+#: related-posts-thumbnails.php:204
+#: related-posts-thumbnails.php:286
+#: related-posts-thumbnails.php:335
+#: related-posts-thumbnails.php:337
+#: related-posts-thumbnails.php:387
+#: related-posts-thumbnails.php:459
+#: related-posts-thumbnails.php:463
+#: related-posts-thumbnails.php:519
+msgid "Number of similar posts to display"
+msgstr "Kaçtane benzer yazı gösterilsin"
+
+#: related-posts-thumbnails.php:212
+#: related-posts-thumbnails.php:360
+#: related-posts-thumbnails.php:409
+#: related-posts-thumbnails.php:411
+#: related-posts-thumbnails.php:461
+#: related-posts-thumbnails.php:519
+#: related-posts-thumbnails.php:530
+#: related-posts-thumbnails.php:586
+msgid "Style options"
+msgstr "Görünüm Seçenekleri"
+
+#: related-posts-thumbnails.php:215
+#: related-posts-thumbnails.php:363
+#: related-posts-thumbnails.php:412
+#: related-posts-thumbnails.php:414
+#: related-posts-thumbnails.php:464
+#: related-posts-thumbnails.php:522
+#: related-posts-thumbnails.php:533
+#: related-posts-thumbnails.php:600
+msgid "Background color"
+msgstr "Arkaplan rengi"
+
+#: related-posts-thumbnails.php:221
+#: related-posts-thumbnails.php:369
+#: related-posts-thumbnails.php:418
+#: related-posts-thumbnails.php:420
+#: related-posts-thumbnails.php:470
+#: related-posts-thumbnails.php:528
+#: related-posts-thumbnails.php:539
+#: related-posts-thumbnails.php:606
+msgid "Background color on mouse over"
+msgstr "Fare üzerine getirildiğinde görünecek arkaplan rengi"
+
+#: related-posts-thumbnails.php:227
+#: related-posts-thumbnails.php:375
+#: related-posts-thumbnails.php:424
+#: related-posts-thumbnails.php:426
+#: related-posts-thumbnails.php:476
+#: related-posts-thumbnails.php:534
+#: related-posts-thumbnails.php:545
+#: related-posts-thumbnails.php:612
+msgid "Border color"
+msgstr "Kenar çizgilerin rengi"
+
+#: related-posts-thumbnails.php:233
+#: related-posts-thumbnails.php:381
+#: related-posts-thumbnails.php:430
+#: related-posts-thumbnails.php:432
+#: related-posts-thumbnails.php:482
+#: related-posts-thumbnails.php:540
+#: related-posts-thumbnails.php:551
+#: related-posts-thumbnails.php:618
+msgid "Font color"
+msgstr "Font rengi"
+
+#: related-posts-thumbnails.php:239
+#: related-posts-thumbnails.php:387
+#: related-posts-thumbnails.php:436
+#: related-posts-thumbnails.php:438
+#: related-posts-thumbnails.php:488
+#: related-posts-thumbnails.php:546
+#: related-posts-thumbnails.php:557
+#: related-posts-thumbnails.php:624
+msgid "Font family"
+msgstr "Font türü"
+
+#: related-posts-thumbnails.php:245
+#: related-posts-thumbnails.php:393
+#: related-posts-thumbnails.php:442
+#: related-posts-thumbnails.php:444
+#: related-posts-thumbnails.php:494
+#: related-posts-thumbnails.php:552
+#: related-posts-thumbnails.php:563
+#: related-posts-thumbnails.php:630
+msgid "Font size"
+msgstr "Font büyüklüğü"
+
+#: related-posts-thumbnails.php:251
+#: related-posts-thumbnails.php:399
+#: related-posts-thumbnails.php:448
+#: related-posts-thumbnails.php:450
+#: related-posts-thumbnails.php:500
+#: related-posts-thumbnails.php:558
+#: related-posts-thumbnails.php:569
+#: related-posts-thumbnails.php:636
+msgid "Text maximum length"
+msgstr "Maksimum başlık uzunluğu"
+
+#: related-posts-thumbnails.php:259
+#: related-posts-thumbnails.php:407
+#: related-posts-thumbnails.php:464
+#: related-posts-thumbnails.php:472
+#: related-posts-thumbnails.php:522
+#: related-posts-thumbnails.php:580
+#: related-posts-thumbnails.php:591
+#: related-posts-thumbnails.php:658
+msgid "Relation Builder Options"
+msgstr "Benzer Yazı Seçim Ayarları"
+
+#: related-posts-thumbnails.php:262
+#: related-posts-thumbnails.php:410
+#: related-posts-thumbnails.php:467
+#: related-posts-thumbnails.php:475
+#: related-posts-thumbnails.php:525
+#: related-posts-thumbnails.php:583
+#: related-posts-thumbnails.php:594
+#: related-posts-thumbnails.php:661
+msgid "Relation based on"
+msgstr "Benzer yazıları şuna göre belirle"
+
+#: related-posts-thumbnails.php:265
+#: related-posts-thumbnails.php:255
+#: related-posts-thumbnails.php:413
+#: related-posts-thumbnails.php:304
+#: related-posts-thumbnails.php:470
+#: related-posts-thumbnails.php:306
+#: related-posts-thumbnails.php:478
+#: related-posts-thumbnails.php:356
+#: related-posts-thumbnails.php:528
+#: related-posts-thumbnails.php:586
+#: related-posts-thumbnails.php:597
+#: related-posts-thumbnails.php:664
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: related-posts-thumbnails.php:267
+#: related-posts-thumbnails.php:415
+#: related-posts-thumbnails.php:472
+#: related-posts-thumbnails.php:480
+#: related-posts-thumbnails.php:530
+#: related-posts-thumbnails.php:588
+#: related-posts-thumbnails.php:599
+#: related-posts-thumbnails.php:666
+msgid "Tags"
+msgstr "Etiketler"
+
+#: related-posts-thumbnails.php:269
+#: related-posts-thumbnails.php:417
+#: related-posts-thumbnails.php:474
+#: related-posts-thumbnails.php:482
+#: related-posts-thumbnails.php:532
+#: related-posts-thumbnails.php:590
+#: related-posts-thumbnails.php:601
+#: related-posts-thumbnails.php:668
+msgid "Categories and Tags"
+msgstr "Kategoriler ve Etiketler"
+
+#: related-posts-thumbnails.php:275
+msgid "Thumbnails options"
+msgstr "Küçükresim (thumbnails) ayarları"
+
+#: related-posts-thumbnails.php:278
+#: related-posts-thumbnails.php:327
+#: related-posts-thumbnails.php:376
+#: related-posts-thumbnails.php:378
+#: related-posts-thumbnails.php:428
+#: related-posts-thumbnails.php:486
+#: related-posts-thumbnails.php:490
+#: related-posts-thumbnails.php:546
+msgid "Post-thumbnails name"
+msgstr "Yazılarda kullanılan küçükresim adını yazın"
+
+#: related-posts-thumbnails.php:286
+#: related-posts-thumbnails.php:335
+#: related-posts-thumbnails.php:384
+#: related-posts-thumbnails.php:386
+#: related-posts-thumbnails.php:436
+#: related-posts-thumbnails.php:494
+#: related-posts-thumbnails.php:498
+#: related-posts-thumbnails.php:554
+msgid "Your theme has to support post-thumbnails to have more choices"
+msgstr "Temanız pos-thumbnails özelliğini desteklemelidir"
+
+#: related-posts-thumbnails.php:291
+#: related-posts-thumbnails.php:292
+#: related-posts-thumbnails.php:341
+#: related-posts-thumbnails.php:343
+#: related-posts-thumbnails.php:393
+#: related-posts-thumbnails.php:465
+#: related-posts-thumbnails.php:469
+#: related-posts-thumbnails.php:525
+msgid "Default image URL"
+msgstr "Varsayılan küçükresim adresi"
+
+#: related-posts-thumbnails.php:299
+#: related-posts-thumbnails.php:422
+#: related-posts-thumbnails.php:479
+#: related-posts-thumbnails.php:487
+#: related-posts-thumbnails.php:537
+#: related-posts-thumbnails.php:597
+#: related-posts-thumbnails.php:608
+#: related-posts-thumbnails.php:675
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: related-posts-thumbnails.php:248
+#: related-posts-thumbnails.php:297
+#: related-posts-thumbnails.php:299
+#: related-posts-thumbnails.php:349
+#: related-posts-thumbnails.php:427
+#: related-posts-thumbnails.php:431
+#: related-posts-thumbnails.php:487
+msgid "Page type"
+msgstr "Sayfa Kaynağı"
+
+#: related-posts-thumbnails.php:270
+#: related-posts-thumbnails.php:319
+#: related-posts-thumbnails.php:321
+#: related-posts-thumbnails.php:371
+#: related-posts-thumbnails.php:608
+#: related-posts-thumbnails.php:619
+#: related-posts-thumbnails.php:686
+msgid "All"
+msgstr "Tümü"
+
+#: related-posts-thumbnails.php:298
+#: related-posts-thumbnails.php:324
+#: related-posts-thumbnails.php:342
+#: related-posts-thumbnails.php:347
+#: related-posts-thumbnails.php:373
+#: related-posts-thumbnails.php:391
+#: related-posts-thumbnails.php:349
+#: related-posts-thumbnails.php:375
+#: related-posts-thumbnails.php:393
+#: related-posts-thumbnails.php:399
+#: related-posts-thumbnails.php:425
+#: related-posts-thumbnails.php:443
+#: related-posts-thumbnails.php:471
+#: related-posts-thumbnails.php:483
+#: related-posts-thumbnails.php:501
+#: related-posts-thumbnails.php:475
+#: related-posts-thumbnails.php:487
+#: related-posts-thumbnails.php:505
+#: related-posts-thumbnails.php:531
+#: related-posts-thumbnails.php:543
+#: related-posts-thumbnails.php:561
+msgid "Thumbnails source"
+msgstr "Küçükresim kaynağı"
+
+#: related-posts-thumbnails.php:345
+#: related-posts-thumbnails.php:394
+#: related-posts-thumbnails.php:396
+#: related-posts-thumbnails.php:446
+#: related-posts-thumbnails.php:504
+#: related-posts-thumbnails.php:508
+#: related-posts-thumbnails.php:564
+msgid "Custom field name"
+msgstr "Özel seçin adı"
+
+#: related-posts-thumbnails.php:351
+#: related-posts-thumbnails.php:400
+#: related-posts-thumbnails.php:402
+#: related-posts-thumbnails.php:452
+#: related-posts-thumbnails.php:510
+#: related-posts-thumbnails.php:514
+#: related-posts-thumbnails.php:570
+msgid "Size"
+msgstr "Büyüklük"
+
+#: related-posts-thumbnails.php:353
+#: related-posts-thumbnails.php:402
+#: related-posts-thumbnails.php:404
+#: related-posts-thumbnails.php:454
+#: related-posts-thumbnails.php:512
+#: related-posts-thumbnails.php:516
+#: related-posts-thumbnails.php:572
+msgid "Width"
+msgstr "Genişlik"
+
+#: related-posts-thumbnails.php:354
+#: related-posts-thumbnails.php:403
+#: related-posts-thumbnails.php:405
+#: related-posts-thumbnails.php:455
+#: related-posts-thumbnails.php:513
+#: related-posts-thumbnails.php:517
+#: related-posts-thumbnails.php:573
+msgid "Height"
+msgstr "Yükseklik"
+
+#: related-posts-thumbnails.php:426
+#: related-posts-thumbnails.php:483
+#: related-posts-thumbnails.php:491
+#: related-posts-thumbnails.php:541
+#: related-posts-thumbnails.php:601
+#: related-posts-thumbnails.php:612
+#: related-posts-thumbnails.php:679
+msgid "If you experience some problems with this plugin please let me know about it on <a href=\"http://wordpress.shaldybina.com/plugins/related-posts-thumbnails/\">Plugin's homepage</a>. If you think this plugin is awesome please vote on <a href=\"http://wordpress.org/extend/plugins/related-posts-thumbnails/\">Wordpress plugin page</a>. Thanks!"
+msgstr "Eklenti konusunda sorun ve görüşleriniz için <a href=\"http://wordpress.shaldybina.com/plugins/related-posts-thumbnails/\">Plugin's homepage</a> adresini ziyaret edebilirsiniz. Eklentiyi beğendiyseniz lütfen <a href=\"http://wordpress.org/extend/plugins/related-posts-thumbnails/\">Wordpress plugin page</a>  sayfasını ziyaret ederek oy kullanın. Teşekkürler!"
+
+#: related-posts-thumbnails.php:290
+#: related-posts-thumbnails.php:292
+#: related-posts-thumbnails.php:335
+#: related-posts-thumbnails.php:413
+#: related-posts-thumbnails.php:417
+#: related-posts-thumbnails.php:473
+msgid "Automatically append to the post content"
+msgstr "Eklenti kodu otomatik olarak eklensin"
+
+#: related-posts-thumbnails.php:293
+#: related-posts-thumbnails.php:295
+#: related-posts-thumbnails.php:338
+#: related-posts-thumbnails.php:416
+#: related-posts-thumbnails.php:420
+#: related-posts-thumbnails.php:476
+msgid "Or use <b>&lt;?php get_related_posts_thumbnails(); ?&gt;</b> in the Loop"
+msgstr "Veya <b> <?php get_related_posts_thumbnails(); ?> </b>  konudu kendiniz ekleyebilirsiniz"
+
+#: related-posts-thumbnails.php:451
+#: related-posts-thumbnails.php:453
+#: related-posts-thumbnails.php:503
+#: related-posts-thumbnails.php:561
+#: related-posts-thumbnails.php:572
+#: related-posts-thumbnails.php:639
+msgid "Set 0 for no title"
+msgstr "0 seçerseniz yazı başlıkları görüntülenmez"
+
+#: related-posts-thumbnails.php:455
+#: related-posts-thumbnails.php:457
+#: related-posts-thumbnails.php:507
+#: related-posts-thumbnails.php:565
+#: related-posts-thumbnails.php:576
+#: related-posts-thumbnails.php:643
+msgid "Excerpt maximum length"
+msgstr "Maksimum açıklama uzunluğu"
+
+#: related-posts-thumbnails.php:458
+#: related-posts-thumbnails.php:460
+#: related-posts-thumbnails.php:510
+#: related-posts-thumbnails.php:568
+#: related-posts-thumbnails.php:579
+#: related-posts-thumbnails.php:646
+msgid "Set 0 for no excerpt"
+msgstr "0 seçerseniz yazı açıklama kısımları görüntülenmez"
+
+#: related-posts-thumbnails.php:530
+#: related-posts-thumbnails.php:538
+#: related-posts-thumbnails.php:588
+#: related-posts-thumbnails.php:661
+#: related-posts-thumbnails.php:672
+#: related-posts-thumbnails.php:739
+msgid "Title:"
+msgstr "Başlık"
+
+#: related-posts-thumbnails.php:464
+#: related-posts-thumbnails.php:514
+#: related-posts-thumbnails.php:572
+#: related-posts-thumbnails.php:583
+#: related-posts-thumbnails.php:650
+msgid "Text block height"
+msgstr "Metin bloğu yüksekliği"
+
+#: related-posts-thumbnails.php:342
+#: related-posts-thumbnails.php:420
+#: related-posts-thumbnails.php:424
+#: related-posts-thumbnails.php:480
+msgid "Developer mode"
+msgstr "Geliştirici modu"
+
+#: related-posts-thumbnails.php:345
+#: related-posts-thumbnails.php:423
+#: related-posts-thumbnails.php:427
+#: related-posts-thumbnails.php:483
+msgid "This will add debugging information in HTML source"
+msgstr "HTML kodlarına eklenti açıklama bilgileri eklensin"
+
+#: related-posts-thumbnails.php:322
+#: related-posts-thumbnails.php:325
+#: related-posts-thumbnails.php:368
+msgid "Wrong date"
+msgstr "Hatalı bir tarih girdiniz"
+
+#: related-posts-thumbnails.php:357
+#: related-posts-thumbnails.php:361
+#: related-posts-thumbnails.php:406
+msgid "Settings update failed"
+msgstr "Ayarlar güncellenirken bir hata oluştu"
+
+#: related-posts-thumbnails.php:434
+#: related-posts-thumbnails.php:438
+#: related-posts-thumbnails.php:494
+msgid "Categories on which related thumbnails will appear"
+msgstr "Benzer küçük resimler (thumbnails) hangi kategorilerde gösterilsin"
+
+#: related-posts-thumbnails.php:440
+#: related-posts-thumbnails.php:444
+#: related-posts-thumbnails.php:500
+msgid "Categories that will appear in related thumbnails"
+msgstr "Küçük resimleri (thumbnails) seçili kategoriler ile ilişkilendir"
+
+#: related-posts-thumbnails.php:446
+#: related-posts-thumbnails.php:450
+#: related-posts-thumbnails.php:506
+msgid "Include only posts after"
+msgstr "Sadece şu tarihten sonraki yazıları dahil et"
+
+#: related-posts-thumbnails.php:448
+#: related-posts-thumbnails.php:452
+#: related-posts-thumbnails.php:508
+msgid "Year"
+msgstr "Yıl"
+
+#: related-posts-thumbnails.php:448
+#: related-posts-thumbnails.php:452
+#: related-posts-thumbnails.php:508
+msgid "Month"
+msgstr "Ay"
+
+#: related-posts-thumbnails.php:448
+#: related-posts-thumbnails.php:452
+#: related-posts-thumbnails.php:508
+msgid "Day"
+msgstr "Gün"
+
+#: related-posts-thumbnails.php:448
+#: related-posts-thumbnails.php:452
+#: related-posts-thumbnails.php:508
+msgid "Leave empty for all posts dates"
+msgstr "Boş bırakırsanız bütün yazılar dahil edilir"
+
+#: related-posts-thumbnails.php:592
+#: related-posts-thumbnails.php:603
+#: related-posts-thumbnails.php:670
+msgid "Random"
+msgstr "Rastgele"
+
+#: related-posts-thumbnails.php:521
+#: related-posts-thumbnails.php:577
+msgid "Theme resize url"
+msgstr "Resim boyutlandırma adresi"
+
+#: related-posts-thumbnails.php:524
+#: related-posts-thumbnails.php:580
+msgid "If your theme resizes images, enter URL to its resizing PHP file"
+msgstr "(Küçük resimleri yeniden boyutlandırmak için kullanılacak PHP dosyasının adresini yazın)"
+
+#: related-posts-thumbnails.php:589
+msgid "Output style"
+msgstr "Görüntü Stili"
+
+#: related-posts-thumbnails.php:430
+msgid "Blocks"
+msgstr "Blok şeklinde"
+
+#: related-posts-thumbnails.php:430
+msgid "List"
+msgstr "Liste şeklinde"
+
+#: related-posts-thumbnails.php:596
+msgid "Turn off plugin styles"
+msgstr "Eklenti stilini devredışı bırak"
+

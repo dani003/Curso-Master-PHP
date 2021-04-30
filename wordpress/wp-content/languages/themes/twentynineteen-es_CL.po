@@ -1,0 +1,271 @@
+# Translation of Themes - Twenty Nineteen in Spanish (Chile)
+# This file is distributed under the same license as the Themes - Twenty Nineteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-21 21:26:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es_CL\n"
+"Project-Id-Version: Themes - Twenty Nineteen\n"
+
+#. Theme Name of the theme
+#: inc/block-patterns.php:20
+msgid "Twenty Nineteen"
+msgstr "Veinte Diecinueve"
+
+#: functions.php:196
+msgid "Add widgets here to appear in your footer."
+msgstr "Añade widgets aquí para que aparezcan en el pie de tu sitio."
+
+#: template-parts/footer/footer-widgets.php:12 functions.php:194
+msgid "Footer"
+msgstr "Pie"
+
+#: image.php:56
+msgid "Page"
+msgstr "Página"
+
+#: inc/customizer.php:53
+msgid "Primary Color"
+msgstr "Color primario"
+
+#: image.php:70
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Tamaño completo"
+
+#: template-parts/content/content-none.php:39
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo siento, pero no encontramos resultados con tus términos de búsqueda. Por favor inténtalo nuevamente con otras palabras."
+
+#: template-parts/content/content-none.php:16
+msgid "Nothing Found"
+msgstr "No se encontró"
+
+#: comments.php:95
+msgid "Previous"
+msgstr "Anterior"
+
+#: comments.php:96
+msgid "Next"
+msgstr "Siguiente"
+
+#: template-parts/content/content.php:49
+#: template-parts/content/content-page.php:27
+#: template-parts/content/content-single.php:40 image.php:52
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Ir al contenido"
+
+#: template-parts/header/site-branding.php:46 functions.php:61
+msgid "Social Links Menu"
+msgstr "Menú de Enlaces Sociales"
+
+#: comments.php:116
+msgid "Comments are closed."
+msgstr "Comentarios cerrados."
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Ups! No encontramos dicha página."
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Parece que no se encontró nada en este lugar. ¿Por qué no buscas mejor?"
+
+#: template-parts/content/content-none.php:46
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no podemos encontrar lo que buscas. Quizas buscar podría ayudar."
+
+#. translators: %s: Post title. Only visible to screen readers.
+#. translators: %s: Post title.
+#: template-parts/content/content.php:36
+#: template-parts/content/content-single.php:27 functions.php:225
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continua leyendo<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentynineteen-walker-comment.php:78
+msgid "%1$s at %2$s"
+msgstr "%1$s en %2$s"
+
+#. translators: %d: Number of comments.
+#: template-parts/post/discussion-meta.php:16
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d Comentario"
+msgstr[1] "%d Comentarios"
+
+#. translators: %s: Comment author link.
+#: classes/class-twentynineteen-walker-comment.php:59
+msgid "%s <span class=\"screen-reader-text says\">says:</span>"
+msgstr "%s <span class=\"screen-reader-text says\">dice:</span>"
+
+#. translators: %s: Taxonomy singular name.
+#: inc/template-functions.php:90
+msgid "%s Archives:"
+msgstr "%s Archivos:"
+
+#. translators: Used between list items, there is a space after the comma.
+#: inc/template-tags.php:86 inc/template-tags.php:98
+msgid ", "
+msgstr ", "
+
+#: inc/template-functions.php:92
+msgid "Archives:"
+msgstr "Archivos:"
+
+#: inc/template-functions.php:78
+msgid "Author Archives: "
+msgstr "Archivados por Autor: "
+
+#: inc/template-functions.php:74
+msgid "Category Archives: "
+msgstr "Archivo de la Categoría: "
+
+#: comments.php:92 comments.php:95 comments.php:96
+msgid "Comments"
+msgstr "Comentarios"
+
+#: inc/template-functions.php:84
+msgid "Daily Archives: "
+msgstr "Archivos Diarios: "
+
+#: classes/class-twentynineteen-walker-comment.php:89
+msgid "Edit"
+msgstr "Editar"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: template-parts/content/content-page.php:41
+#: template-parts/header/entry-header.php:32 inc/template-tags.php:120
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
+
+#: comments.php:33
+msgid "Join the Conversation"
+msgstr "Únete a la Conversación"
+
+#: comments.php:35 comments.php:105 comments.php:107
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:63
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Deja un comentario<span class=\"screen-reader-text\"> en %s</span>"
+
+#: inc/template-functions.php:82
+msgid "Monthly Archives: "
+msgstr "Archivos Mensuales: "
+
+#: inc/template-tags.php:230
+msgid "Newer posts"
+msgstr "Entradas recientes"
+
+#: single.php:38
+msgid "Next Post"
+msgstr "Entrada Siguiente"
+
+#: single.php:39
+msgid "Next post:"
+msgstr "Entrada siguiente:"
+
+#: template-parts/post/discussion-meta.php:18
+msgid "No comments"
+msgstr "No hay comentarios"
+
+#: inc/template-tags.php:234
+msgid "Older posts"
+msgstr "Entradas anteriores"
+
+#: inc/template-functions.php:86
+msgid "Post Type Archives: "
+msgstr "Archivo de Tipos de Entrada: "
+
+#: inc/template-tags.php:46
+msgid "Posted by"
+msgstr "Publicado por"
+
+#: inc/template-tags.php:92
+msgid "Posted in"
+msgstr "Publicado en"
+
+#: single.php:41
+msgid "Previous Post"
+msgstr "Entrada Anterior"
+
+#: single.php:42
+msgid "Previous post:"
+msgstr "Entrada anterior:"
+
+#: functions.php:59
+msgid "Primary"
+msgstr "Primario"
+
+#: inc/template-functions.php:76
+msgid "Tag Archives: "
+msgstr "Etiquetas Archivadas: "
+
+#: inc/template-tags.php:104
+msgid "Tags:"
+msgstr "Etiquetas: "
+
+#: template-parts/header/site-branding.php:33
+msgid "Top Menu"
+msgstr "Menu principal"
+
+#: template-parts/post/author-bio.php:26
+msgid "View more posts"
+msgstr "Ver más entradas"
+
+#: inc/template-functions.php:80
+msgid "Yearly Archives: "
+msgstr "Archivos Anuales: "
+
+#: classes/class-twentynineteen-walker-comment.php:96
+msgid "Your comment is awaiting moderation."
+msgstr "Su comentario está esperando ser moderado."
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s respuesta en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s respuestas en &ldquo;%2$s&rdquo;"
+
+#. translators: %s: Post title.
+#: comments.php:40
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "Una respuesta en &ldquo;%s&rdquo;"
+
+#: inc/template-functions.php:82
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-functions.php:80
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#. translators: %s: Post author.
+#: template-parts/post/author-bio.php:17
+msgid "Published by %s"
+msgstr "Publicado por %s"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "el equipo de WordPress"
+
+#. Author URI of the theme
+#: footer.php:25
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"

@@ -1,0 +1,52 @@
+.ps-container {
+    -ms-touch-action: none;
+    touch-action: none;
+    overflow: hidden!important;
+    -ms-overflow-style: none;
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    .ps-container {
+        overflow: auto!important;
+    }
+}
+
+.ps-container.ps-active-x > .ps-scrollbar-x-rail,
+.ps-container.ps-active-y > .ps-scrollbar-y-rail {
+    display: block;
+    background-color: transparent;
+}
+
+.ps-container.ps-in-scrolling {
+    pointer-events: none;
+}
+
+.ps-container > .ps-scrollbar-y-rail {
+    display: none;
+    position: absolute;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-transition: background-color .2s linear, opacity .2s linear;
+    -moz-transition: background-color .2s linear, opacity .2s linear;
+    -o-transition: background-color .2s linear, opacity .2s linear;
+    transition: background-color .2s linear, opacity .2s linear;
+    right: 3px;
+    width: 3px;
+}
+
+.ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+    position: absolute;
+    cursor: pointer;
+    -webkit-transition: background-color .2s linear;
+    -moz-transition: background-color .2s linear;
+    -o-transition: background-color .2s linear;
+    transition: background-color .2s linear;
+    right: 0;
+    width: 3px;
+}
+
+.ps-container:hover.ps-in-scrolling {
+    pointer-events: none;
+}

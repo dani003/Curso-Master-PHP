@@ -1,0 +1,1066 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bard\n"
+"POT-Creation-Date: 2021-03-17 08:39+0400\n"
+"PO-Revision-Date: 2021-03-17 08:39+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:5
+msgid "Page not found!"
+msgstr ""
+
+#: 404.php:8
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: comments.php:12 templates/grid/blog-full.php:61
+#: templates/grid/blog-grid.php:26 templates/grid/blog-list.php:35
+#: templates/single/post-content.php:69
+msgid "0 Comments"
+msgstr ""
+
+#: comments.php:12
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:12
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:26
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:30
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:44
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:45
+msgid "Comment"
+msgstr ""
+
+#: comments.php:46
+msgid "Post Comment"
+msgstr ""
+
+#: footer.php:44
+msgid " | "
+msgstr ""
+
+#. translators: %1$s: theme name, %2$s link, %3$s theme author
+#: footer.php:53
+#, php-format
+msgid "%1$s Theme by <a href=\"%2$s\">%3$s.</a>"
+msgstr ""
+
+#: footer.php:73
+msgid "Back to top"
+msgstr ""
+
+#: functions.php:50
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:51
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:52
+msgid "Footer Menu"
+msgstr ""
+
+#. translators: %1$s: theme name, %2$s link
+#: functions.php:102
+#, php-format
+msgid ""
+"Thank you for choosing %1$s! To fully take advantage of the best our theme "
+"can offer please make sure you visit our <a href=\"%2$s\">Welcome page</a>"
+msgstr ""
+
+#. translators: %s theme name
+#: functions.php:107
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#: functions.php:199 functions.php:207 functions.php:215 functions.php:223
+#: functions.php:231
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:266
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:268 functions.php:278
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:276
+msgid "Left Sidebar"
+msgstr ""
+
+#: functions.php:286
+msgid "Sidebar Alt"
+msgstr ""
+
+#: functions.php:288
+msgid "Add widgets here to appear in your alternative/fixed sidebar."
+msgstr ""
+
+#: functions.php:296
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions.php:298
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: functions.php:306
+msgid "Instagram Widget"
+msgstr ""
+
+#: functions.php:308
+msgid "Add widget here to appear in your Footer Instagram Area."
+msgstr ""
+
+#: functions.php:336 functions.php:356 inc/about/about-bard.php:234
+msgid "Setup Menu"
+msgstr ""
+
+#: functions.php:382
+msgid "Random Article"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: functions.php:409 functions.php:425
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: functions.php:700
+msgid "Search..."
+msgstr ""
+
+#: functions.php:700
+msgid "Type then hit Enter..."
+msgstr ""
+
+#: functions.php:726
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:728 functions.php:749
+msgid "&nbsp;at&nbsp;"
+msgstr ""
+
+#: functions.php:729 functions.php:752
+msgid "[Edit]"
+msgstr ""
+
+#: functions.php:761
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/about/about-bard.php:5 inc/customizer/customizer.php:384
+msgid "About Bard"
+msgstr ""
+
+#. translators: %s theme name
+#: inc/about/about-bard.php:18
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#. translators: %s theme name
+#: inc/about/about-bard.php:23
+#, php-format
+msgid ""
+"%s theme is one of the most Popular Free WordPress theme of 2017-2021 years. "
+"To understand better what the theme can offer, please click the button below."
+msgstr ""
+
+#: inc/about/about-bard.php:25
+msgid "Theme Demo Preview"
+msgstr ""
+
+#: inc/about/about-bard.php:43
+msgid "Getting Started"
+msgstr ""
+
+#: inc/about/about-bard.php:46
+msgid "Video Tutorials"
+msgstr ""
+
+#: inc/about/about-bard.php:49
+msgid "Useful Plugins"
+msgstr ""
+
+#: inc/about/about-bard.php:52 inc/customizer/customizer.php:338
+msgid "Support"
+msgstr ""
+
+#: inc/about/about-bard.php:55
+msgid "Free vs Pro"
+msgstr ""
+
+#: inc/about/about-bard.php:67 inc/customizer/customizer.php:348
+#: inc/customizer/customizer.php:356
+msgid "Documentation"
+msgstr ""
+
+#. translators: %s theme name
+#: inc/about/about-bard.php:70 inc/customizer/customizer.php:353
+#, php-format
+msgid ""
+"Need more details? Please check our full documentation for detailed "
+"information on how to use %s."
+msgstr ""
+
+#: inc/about/about-bard.php:73
+msgid "Read Full Documentation"
+msgstr ""
+
+#: inc/about/about-bard.php:74
+msgid "Setup Instagram"
+msgstr ""
+
+#: inc/about/about-bard.php:78 inc/about/about-bard.php:225
+msgid "Demo Content"
+msgstr ""
+
+#: inc/about/about-bard.php:80
+msgid ""
+"If you are a WordPress beginner it's highly recommended to install the theme "
+"Demo Content. This file includes: Menus, Posts, Pages, Widgets, etc."
+msgstr ""
+
+#: inc/about/about-bard.php:84
+msgid "Go to Import page"
+msgstr ""
+
+#: inc/about/about-bard.php:86
+msgid "Activate Demo Import Plugin"
+msgstr ""
+
+#: inc/about/about-bard.php:88
+msgid "Install Demo Import Plugin"
+msgstr ""
+
+#: inc/about/about-bard.php:91
+msgid "Demo Import Video Tutorial"
+msgstr ""
+
+#: inc/about/about-bard.php:95
+msgid "Theme Customizer"
+msgstr ""
+
+#. translators: %s theme name
+#: inc/about/about-bard.php:98
+#, php-format
+msgid ""
+"%s supports the Theme Customizer for all theme settings. Click \"Customize\" "
+"to personalize your site."
+msgstr ""
+
+#: inc/about/about-bard.php:101
+msgid "Start Customizing"
+msgstr ""
+
+#: inc/about/about-bard.php:111
+msgid "Bard Pro - Predefined Styles"
+msgstr ""
+
+#. translators: %s link
+#: inc/about/about-bard.php:114 inc/customizer/customizer.php:362
+#, php-format
+msgid ""
+"Bard Pro's powerful setup allows you to easily create unique looking sites. "
+"Here are a few included examples that can be installed with one click in the "
+"Pro Version. More details in the <a href=\"%s\" target=\"_blank\" >Theme "
+"Documentation</a>"
+msgstr ""
+
+#: inc/about/about-bard.php:119
+msgid "Active"
+msgstr ""
+
+#: inc/about/about-bard.php:122
+msgid "Main"
+msgstr ""
+
+#: inc/about/about-bard.php:123 inc/about/about-bard.php:130
+#: inc/about/about-bard.php:137 inc/about/about-bard.php:144
+#: inc/about/about-bard.php:151 inc/about/about-bard.php:158
+#: inc/about/about-bard.php:165 inc/about/about-bard.php:172
+#: inc/about/about-bard.php:179 inc/about/about-bard.php:186
+#: inc/about/about-bard.php:193 inc/about/about-bard.php:200
+#: inc/about/about-bard.php:207 inc/about/about-bard.php:214
+msgid "Live Preview"
+msgstr ""
+
+#: inc/about/about-bard.php:129
+msgid "Food"
+msgstr ""
+
+#: inc/about/about-bard.php:136
+msgid "Lifestyle"
+msgstr ""
+
+#: inc/about/about-bard.php:143
+msgid "Dark"
+msgstr ""
+
+#: inc/about/about-bard.php:150
+msgid "Style 1"
+msgstr ""
+
+#: inc/about/about-bard.php:157
+msgid "Style 2"
+msgstr ""
+
+#: inc/about/about-bard.php:164
+msgid "Style 3"
+msgstr ""
+
+#: inc/about/about-bard.php:171
+msgid "Style 4"
+msgstr ""
+
+#: inc/about/about-bard.php:178
+msgid "Style 5"
+msgstr ""
+
+#: inc/about/about-bard.php:185
+msgid "Style 6"
+msgstr ""
+
+#: inc/about/about-bard.php:192
+msgid "Style 7"
+msgstr ""
+
+#: inc/about/about-bard.php:199
+msgid "Style 8"
+msgstr ""
+
+#: inc/about/about-bard.php:206
+msgid "Style 9"
+msgstr ""
+
+#: inc/about/about-bard.php:213
+msgid "Style 10"
+msgstr ""
+
+#: inc/about/about-bard.php:226 inc/about/about-bard.php:231
+#: inc/about/about-bard.php:235 inc/about/about-bard.php:240
+#: inc/about/about-bard.php:245 inc/about/about-bard.php:250
+#: inc/about/about-bard.php:255 inc/about/about-bard.php:260
+#: inc/about/about-bard.php:265 inc/about/about-bard.php:270
+#: inc/about/about-bard.php:275 inc/about/about-bard.php:280
+#: inc/about/about-bard.php:284
+msgid "Watch Video"
+msgstr ""
+
+#: inc/about/about-bard.php:227 inc/customizer/customizer.php:345
+msgid "Get Started"
+msgstr ""
+
+#: inc/about/about-bard.php:230
+msgid "Setup Instagram Widget"
+msgstr ""
+
+#: inc/about/about-bard.php:236 inc/about/about-bard.php:241
+#: inc/about/about-bard.php:246 inc/about/about-bard.php:251
+#: inc/about/about-bard.php:256 inc/about/about-bard.php:261
+#: inc/about/about-bard.php:266 inc/about/about-bard.php:271
+#: inc/about/about-bard.php:276
+msgid "Customize"
+msgstr ""
+
+#: inc/about/about-bard.php:239
+msgid "Setup Logo Image"
+msgstr ""
+
+#: inc/about/about-bard.php:244
+msgid "Setup Social Media"
+msgstr ""
+
+#: inc/about/about-bard.php:249
+msgid "Setup Copyright"
+msgstr ""
+
+#: inc/about/about-bard.php:254
+msgid "Setup Colors"
+msgstr ""
+
+#: inc/about/about-bard.php:259
+msgid "Setup Header Image"
+msgstr ""
+
+#: inc/about/about-bard.php:264
+msgid "Setup Random Header Images"
+msgstr ""
+
+#: inc/about/about-bard.php:269
+msgid "Setup Featured Slider"
+msgstr ""
+
+#: inc/about/about-bard.php:274
+msgid "Setup Featured Links"
+msgstr ""
+
+#: inc/about/about-bard.php:279
+msgid "Create Blog Post"
+msgstr ""
+
+#: inc/about/about-bard.php:283
+msgid "Translate The Theme"
+msgstr ""
+
+#: inc/about/about-bard.php:338
+msgid "Forums"
+msgstr ""
+
+#: inc/about/about-bard.php:341
+msgid ""
+"Before asking a questions it's highly recommended to search on forums, but "
+"if you can't find the solution feel free to create a new topic."
+msgstr ""
+
+#: inc/about/about-bard.php:343
+msgid "Go to Support Forums"
+msgstr ""
+
+#: inc/about/about-bard.php:351 inc/about/about-bard.php:356
+#: inc/customizer/customizer.php:368 inc/customizer/customizer.php:370
+msgid "Changelog"
+msgstr ""
+
+#: inc/about/about-bard.php:354 inc/customizer/customizer.php:369
+msgid ""
+"Want to get the gist on the latest theme changes? Just consult our changelog "
+"below to get a taste of the recent fixes and features implemented."
+msgstr ""
+
+#: inc/about/about-bard.php:369
+msgid "Email Support"
+msgstr ""
+
+#: inc/about/about-bard.php:372 inc/customizer/customizer.php:339
+msgid "If you have any kind of theme related questions, feel free to ask."
+msgstr ""
+
+#: inc/about/about-bard.php:374 inc/customizer/customizer.php:340
+msgid "Contact Us"
+msgstr ""
+
+#: inc/about/about-bard.php:389 inc/customizer/customizer.php:335
+msgid "Get Bard Pro"
+msgstr ""
+
+#: inc/about/about-bard.php:392
+msgid "Bard"
+msgstr ""
+
+#: inc/about/about-bard.php:393
+msgid "Bard Pro"
+msgstr ""
+
+#: inc/about/about-bard.php:399
+msgid "800+ Google Fonts"
+msgstr ""
+
+#: inc/about/about-bard.php:406
+msgid "Header Background Image/Color/Video"
+msgstr ""
+
+#: inc/about/about-bard.php:413
+msgid "Unlimited Colors Options"
+msgstr ""
+
+#: inc/about/about-bard.php:420
+msgid "Classic, List, Grid Layouts"
+msgstr ""
+
+#: inc/about/about-bard.php:427
+msgid "Advanced Slider Options"
+msgstr ""
+
+#: inc/about/about-bard.php:434
+msgid "Advanced WooCommerce Support"
+msgstr ""
+
+#: inc/about/about-bard.php:441
+msgid "Sticky Navigation"
+msgstr ""
+
+#: inc/about/about-bard.php:448
+msgid "Premium Support 24/7"
+msgstr ""
+
+#: inc/about/about-bard.php:458
+msgid "View Full Feature List"
+msgstr ""
+
+#: inc/about/about-bard.php:500
+msgid "Installed"
+msgstr ""
+
+#: inc/about/about-bard.php:503
+msgid "Install Now"
+msgstr ""
+
+#: inc/about/about-bard.php:508
+msgid "..."
+msgstr ""
+
+#: inc/customizer/customizer.php:320
+msgid "See Bard PRO"
+msgstr ""
+
+#: inc/customizer/customizer.php:333
+msgid "Upgrade"
+msgstr ""
+
+#: inc/customizer/customizer.php:334
+msgid ""
+"There are lots of reasons to upgrade to Pro version. Unlimited custom "
+"Colors, rich Typography options, multiple variation of Blog Feed layout and "
+"way much more. Also Premium Support included."
+msgstr ""
+
+#: inc/customizer/customizer.php:343
+msgid "Demo Import / Getting Started"
+msgstr ""
+
+#: inc/customizer/customizer.php:344
+msgid ""
+"All you need for startup: Demo Import, Video Tutorials and more. To see what "
+"Bard theme can offer, please visit a "
+msgstr ""
+
+#: inc/customizer/customizer.php:344
+msgid "Demo Preview Page."
+msgstr ""
+
+#: inc/customizer/customizer.php:359 inc/customizer/customizer.php:365
+msgid "Predefined Styles"
+msgstr ""
+
+#: inc/customizer/customizer.php:410 inc/customizer/customizer.php:455
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer/customizer.php:416
+msgid "Accent"
+msgstr ""
+
+#: inc/customizer/customizer.php:424
+msgid "Header Text Hover Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:427
+msgid "Header Background"
+msgstr ""
+
+#: inc/customizer/customizer.php:469
+msgid "General Layouts"
+msgstr ""
+
+#: inc/customizer/customizer.php:475
+msgid "Sidebar Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:478
+msgid "Enable Sticky Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer.php:482
+msgid "2 Columns"
+msgstr ""
+
+#: inc/customizer/customizer.php:483
+msgid "List Style"
+msgstr ""
+
+#: inc/customizer/customizer.php:487 inc/customizer/customizer.php:765
+msgid "Blog Page"
+msgstr ""
+
+#: inc/customizer/customizer.php:490 inc/customizer/customizer.php:499
+msgid "Full"
+msgstr ""
+
+#: inc/customizer/customizer.php:491
+msgid "Contained"
+msgstr ""
+
+#: inc/customizer/customizer.php:492 inc/customizer/customizer.php:500
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer/customizer.php:496
+msgid "Header Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:504
+msgid "Featured Slider Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:507
+msgid "Featured Links Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:510
+msgid "Content Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:513
+msgid "Single Content Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:516
+msgid "Footer Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:519
+msgid "Theme"
+msgstr ""
+
+#: inc/customizer/customizer.php:520 inc/customizer/customizer.php:783
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/customizer.php:524
+msgid "Style"
+msgstr ""
+
+#: inc/customizer/customizer.php:534
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:548 inc/customizer/customizer.php:554
+msgid "Top Bar"
+msgstr ""
+
+#: inc/customizer/customizer.php:564
+msgid "Page Header"
+msgstr ""
+
+#: inc/customizer/customizer.php:567
+msgid "Cover"
+msgstr ""
+
+#: inc/customizer/customizer.php:568
+msgid "Pattern"
+msgstr ""
+
+#: inc/customizer/customizer.php:572
+msgid "Background Image Size"
+msgstr ""
+
+#: inc/customizer/customizer.php:575
+msgid "Enable Parallax Scrolling"
+msgstr ""
+
+#: inc/customizer/customizer.php:585
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:598
+msgid "Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:603 inc/customizer/customizer.php:1047
+msgid "Show Social Icons"
+msgstr ""
+
+#: inc/customizer/customizer.php:613
+msgid "Logo Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:627 inc/customizer/customizer.php:633
+msgid "Main Navigation"
+msgstr ""
+
+#: inc/customizer/customizer.php:636
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/customizer.php:637
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/customizer.php:638
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/customizer.php:642
+msgid "Align"
+msgstr ""
+
+#: inc/customizer/customizer.php:645
+msgid "Show Sidebar Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:648
+msgid "Show Random Post Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:651
+msgid "Show Search Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:660 inc/customizer/customizer.php:666
+msgid "Featured Slider"
+msgstr ""
+
+#: inc/customizer/customizer.php:674
+msgid "Display Posts"
+msgstr ""
+
+#: inc/customizer/customizer.php:683
+msgid "Select Category"
+msgstr ""
+
+#: inc/customizer/customizer.php:686
+msgid "Number of Slides"
+msgstr ""
+
+#: inc/customizer/customizer.php:692
+msgid "Off"
+msgstr ""
+
+#: inc/customizer/customizer.php:693
+msgid "On"
+msgstr ""
+
+#: inc/customizer/customizer.php:696
+msgid "Show Navigation Arrows"
+msgstr ""
+
+#: inc/customizer/customizer.php:699
+msgid "Show Pagination Dots"
+msgstr ""
+
+#: inc/customizer/customizer.php:709
+msgid "Slider Options "
+msgstr ""
+
+#: inc/customizer/customizer.php:723 inc/customizer/customizer.php:729
+msgid "Featured Links"
+msgstr ""
+
+#: inc/customizer/customizer.php:732 inc/customizer/customizer.php:741
+#: inc/customizer/customizer.php:750 inc/customizer/customizer.php:957
+#: inc/customizer/customizer.php:966 inc/customizer/customizer.php:975
+#: inc/customizer/customizer.php:984
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/customizer.php:735 inc/customizer/customizer.php:744
+#: inc/customizer/customizer.php:753 inc/customizer/customizer.php:954
+#: inc/customizer/customizer.php:963 inc/customizer/customizer.php:972
+#: inc/customizer/customizer.php:981
+msgid "URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:738 inc/customizer/customizer.php:747
+#: inc/customizer/customizer.php:756
+msgid "Image"
+msgstr ""
+
+#: inc/customizer/customizer.php:771
+msgid "Make First Post Full Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:774 inc/customizer/customizer.php:806
+msgid "None"
+msgstr ""
+
+#: inc/customizer/customizer.php:775
+msgid "Post Excerpt"
+msgstr ""
+
+#: inc/customizer/customizer.php:776
+msgid "Post Content"
+msgstr ""
+
+#: inc/customizer/customizer.php:780
+msgid "Post Description"
+msgstr ""
+
+#: inc/customizer/customizer.php:784
+msgid "Numeric"
+msgstr ""
+
+#: inc/customizer/customizer.php:788
+msgid "Post Pagination"
+msgstr ""
+
+#: inc/customizer/customizer.php:791 inc/customizer/customizer.php:846
+msgid "Show Drop Caps (First Big Letter)"
+msgstr ""
+
+#: inc/customizer/customizer.php:794 inc/customizer/customizer.php:849
+msgid "Show Categories"
+msgstr ""
+
+#: inc/customizer/customizer.php:797 inc/customizer/customizer.php:852
+msgid "Show Date"
+msgstr ""
+
+#: inc/customizer/customizer.php:800 inc/customizer/customizer.php:855
+msgid "Show Comments"
+msgstr ""
+
+#: inc/customizer/customizer.php:803 inc/customizer/customizer.php:858
+msgid "Show Author"
+msgstr ""
+
+#: inc/customizer/customizer.php:807
+msgid "Related"
+msgstr ""
+
+#: inc/customizer/customizer.php:808
+msgid "Random"
+msgstr ""
+
+#: inc/customizer/customizer.php:812 inc/customizer/customizer.php:864
+msgid "Related Posts - Display"
+msgstr ""
+
+#: inc/customizer/customizer.php:822
+msgid "Blog Options "
+msgstr ""
+
+#: inc/customizer/customizer.php:837
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer/customizer.php:843
+msgid "Show Featured Image"
+msgstr ""
+
+#: inc/customizer/customizer.php:861
+msgid "Show Author Description"
+msgstr ""
+
+#: inc/customizer/customizer.php:873
+msgid "Social Media"
+msgstr ""
+
+#: inc/customizer/customizer.php:879
+msgid "Open Social Links in New Window "
+msgstr ""
+
+#: inc/customizer/customizer.php:951 inc/customizer/customizer.php:960
+#: inc/customizer/customizer.php:969 inc/customizer/customizer.php:978
+msgid "Select Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:992
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/customizer.php:998
+msgid "Arizonia"
+msgstr ""
+
+#: inc/customizer/customizer.php:999
+msgid "Open Sans"
+msgstr ""
+
+#: inc/customizer/customizer.php:1000
+msgid "Rokkitt"
+msgstr ""
+
+#: inc/customizer/customizer.php:1001
+msgid "Kalam"
+msgstr ""
+
+#: inc/customizer/customizer.php:1005 inc/customizer/customizer.php:1008
+msgid "Font Family"
+msgstr ""
+
+#: inc/customizer/customizer.php:1011
+msgid "Italic"
+msgstr ""
+
+#: inc/customizer/customizer.php:1014
+msgid "Uppercase"
+msgstr ""
+
+#: inc/customizer/customizer.php:1024
+msgid "Typography Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:1038
+msgid "Page Footer"
+msgstr ""
+
+#: inc/customizer/customizer.php:1044
+msgid "Logo Upload"
+msgstr ""
+
+#: inc/customizer/customizer.php:1050
+msgid "Show Scroll-Top Button"
+msgstr ""
+
+#: inc/customizer/customizer.php:1055
+msgid "Your Copyright Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:1065
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:1079
+msgid "Preloader"
+msgstr ""
+
+#: inc/customizer/customizer.php:1085
+msgid "Preloading Animation"
+msgstr ""
+
+#: inc/customizer/customizer.php:1094
+msgid "Responsive"
+msgstr ""
+
+#: inc/customizer/customizer.php:1095
+msgid "These options will only apply to Mobile devices."
+msgstr ""
+
+#: inc/customizer/customizer.php:1102
+msgid "Merge Top and Main Menus"
+msgstr ""
+
+#: inc/customizer/customizer.php:1105
+msgid "Show Featured Slider"
+msgstr ""
+
+#: inc/customizer/customizer.php:1108
+msgid "Show Featured Links"
+msgstr ""
+
+#: inc/customizer/customizer.php:1111
+msgid "Show Related Posts"
+msgstr ""
+
+#: inc/preview/demo-preview.php:72 inc/preview/demo-preview.php:84
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/preview/demo-preview.php:73 inc/preview/demo-preview.php:80
+#: inc/preview/demo-preview.php:85
+msgid "Archives"
+msgstr ""
+
+#: inc/preview/demo-preview.php:74 inc/preview/demo-preview.php:86
+msgid "Categories"
+msgstr ""
+
+#: inc/preview/demo-preview.php:79
+msgid "Pages"
+msgstr ""
+
+#: index.php:76
+msgid "Nothing Found!"
+msgstr ""
+
+#: index.php:78
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: page.php:41 templates/single/post-content.php:49
+msgid "Pages:"
+msgstr ""
+
+#: single.php:34 templates/grid/blog-full.php:67
+#: templates/grid/blog-list.php:64
+msgid "You May Also Like"
+msgstr ""
+
+#: templates/grid/blog-full.php:43
+msgid "Continue Reading"
+msgstr ""
+
+#: templates/grid/blog-full.php:61 templates/grid/blog-grid.php:26
+#: templates/grid/blog-list.php:35 templates/single/post-content.php:69
+msgid "1 Comment"
+msgstr ""
+
+#: templates/grid/blog-full.php:61 templates/grid/blog-grid.php:26
+#: templates/grid/blog-list.php:35 templates/single/post-content.php:69
+msgid "Comments"
+msgstr ""
+
+#: templates/grid/blog-grid.php:50 templates/grid/blog-list.php:24
+msgid "By "
+msgstr ""
+
+#: templates/grid/blog-list.php:59 templates/header/featured-slider.php:98
+msgid "read more"
+msgstr ""
+
+#: templates/grid/blog-pagination.php:33
+msgid "Loading..."
+msgstr ""
+
+#: templates/grid/blog-pagination.php:66
+msgid "Older Posts"
+msgstr ""
+
+#: templates/grid/blog-pagination.php:72
+msgid "Newer Posts"
+msgstr ""
+
+#: templates/grid/blog-pagination.php:78
+msgid "Load More"
+msgstr ""
+
+#: templates/header/main-navigation.php:12
+msgid "Alt Sidebar"
+msgstr ""
+
+#: templates/header/main-navigation.php:32
+msgid "Search"
+msgstr ""
+
+#: templates/sidebars/sidebar-alt.php:25
+msgid "No Widgets found in the Sidebar Alt!"
+msgstr ""
+
+#: templates/single/post-content.php:63
+msgid "By"
+msgstr ""
+
+#: templates/single/single-navigation.php:17
+msgid "Previous"
+msgstr ""
+
+#: templates/single/single-navigation.php:32
+msgid "Newer"
+msgstr ""

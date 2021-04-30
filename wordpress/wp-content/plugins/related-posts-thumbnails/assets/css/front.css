@@ -1,0 +1,211 @@
+.related-posts-nav {
+    border: 0pt none;
+    margin: 0pt;
+    padding: 0pt;
+}
+
+.related-posts-nav:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.related-posts-nav>li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.related-posts-nav>li:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.related-posts-nav>li:before {
+    display: none;
+}
+
+.related-posts-nav>li>a {
+    border-bottom: medium none;
+    margin: 0pt;
+    padding: 6px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border-right: #ddd;
+    background-color: #fff;
+}
+
+.related-posts-nav>li>a:hover {
+    background-color: #eeeeef;
+}
+
+@media screen and (min-width: 290px) and (max-width: 520px) {
+    .relpost-block-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.related-posts-nav>li>a>.related-post-list-item-inner-container {
+    border: 0pt none;
+    margin: 0pt;
+    padding: 0pt;
+    width: 150px;
+    height: 225px;
+}
+
+.related-posts-nav>li>a>.related-post-list-item-inner-container>.related-post-list-item-img-container {
+    border: 0pt none;
+    margin: 0pt;
+    padding: 0pt;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0 0;
+}
+
+.related-posts-nav>li>a>.related-post-list-item-inner-container>.related-post-list-item-text-container {
+    border: 0pt none;
+    margin: 3px 0pt 0pt;
+    padding: 0pt;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    font-stretch: normal;
+    color: #333333;
+}
+
+.related-post-list-item-link {
+    box-shadow: none !important;
+}
+
+
+/* Burhan */
+
+#related_posts_thumbnails {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0
+}
+
+#related_posts_thumbnails li {
+    float: left;
+    padding: 0;
+    margin: 0;
+    padding: 5px;
+    display: block;
+    max-width: 100%;
+}
+
+.relpost_content {
+    display: block;
+    overflow: hidden;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-stretch: normal;
+    -x-system-font: none;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+.relpost-post-image {
+    padding: 0;
+    margin: 0;
+    border: 0 none;
+    max-width: 100%;
+}
+
+.relpost-block-container {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+.relpost-block-single {
+    border-bottom: medium none;
+    margin: 0;
+    padding: 6px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    margin-right: -1px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    border: 0 !important;
+}
+
+.relpost-block-single-image {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    -moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-inline-policy: continuous;
+    background-size: cover !important;
+    max-width: 100%;
+}
+
+.relpost-block-single-text {
+    border: 0 none;
+    margin: 3px 0 0;
+    padding: 0;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-stretch: normal;
+    -x-system-font: none;
+}
+
+html[dir="rtl"] .relpost-block-single {
+    float: right;
+}
+
+html[dir="rtl"] #related_posts_thumbnails li {
+    float: right;
+}
+
+.relpost-align-left {
+    float: left;
+}
+
+.relpost-align-right {
+    float: right;
+}
+
+.relpost-align-center {
+    float: none;
+    text-align: center;
+}
+
+.relpost-align-center .relpost-block-single {
+    display: inline-block;
+    float: none;
+}
+
+.relpost-thumb-wrapper:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.rpth_post_date {
+    display: block;
+    padding-top: 10px;
+    font-size: 11px;
+}

@@ -1,0 +1,173 @@
+/* Customizer UI */
+.customize-control {
+	position: relative;
+	margin-bottom: 0;
+	padding: 8px 15px;
+	background: #fff;
+	box-sizing: border-box;
+}
+
+#customize-theme-controls .customize-pane-child.accordion-section-content {
+	padding: 10px;
+}
+
+.customize-control-pro_options + .tab-title,
+.customize-section-description-container + .tab-title {
+	margin-top: 0 !important;
+}
+
+.tab-title {
+	width: auto;
+	padding: 10px 15px 10px 15px;
+	margin-top: 30px;
+	border-bottom: 1px solid #eee;
+	color: #333;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.tab-title {
+	width: auto;
+	padding: 10px 15px 10px 15px;
+	margin-top: 30px;
+	border-bottom: 1px solid #eee;
+	color: #333;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.tab-title a {
+	box-shadow: none !important;
+	text-decoration: none;
+	margin-left: 10px;
+	padding-left: 10px;
+	border-left: 2px solid #eee;
+	font-size: 12px;
+}
+
+.tab-title span {
+  display: inline-block !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.video-tutorial {
+	font-size: 16px;
+	line-height: 20px;
+	color: red;
+}
+
+#customize-control-ashe_options-featured_links_label.tab-title,
+#customize-control-ashe_options-featured_slider_label.tab-title {
+	font-size: 12px !important;
+}
+
+.customize-control-checkbox label {
+	padding: 0;
+}
+
+#customize-theme-controls .customize-pane-child.accordion-section-content li:last-of-type {
+	padding-bottom: 20px
+}
+
+#customize-control-bard_options-preloader_label,
+#customize-control-bard_options-social_media_window,
+#customize-control-bard_options-top_bar_label,
+#customize-control-bard_options-featured_links_label {
+	padding-bottom: 8px !important;
+}
+
+.customize-control.customize-control-color,
+.customize-control.customize-control-color .wp-color-result {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+/* Control Lock */
+.control-lock {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.15);
+	cursor: not-allowed;
+}
+
+/* Copyright */
+#customize-control-bard_options-page_footer_copyright strong {
+  background-color: #eee;
+  padding: 0 5px;
+}
+
+/* Custom CSS */
+#customize-control-custom_css {
+	padding: 0 !important;
+	background-color: transparent;
+}
+
+
+/* Fix Labels */
+#customize-control-bard_options-featured_links_label {
+	width: 100% !important;
+	padding-bottom: 15px !important;
+}
+
+/* Pro Version */
+#customize-control-pro_version_ a.button-primary {
+	text-align: center;
+}
+
+li[id*="pro_version"] {
+	position: relative;
+	padding: 0 !important;
+	margin-top: 30px;
+	background: transparent;
+}
+
+li[id*="pro_version"] .dashicons {
+	float: left;
+	font-size: 20px;
+	margin-top: -1px;
+	margin-right: 10px;
+}
+
+li[id*="pro_version"] a {
+	color: #0085ba;
+	text-decoration: none;
+	outline: none !important;
+}
+
+#accordion-section-bard_pro h3 {
+  color: #fff !important;
+  background-color: #008EC2 !important;
+}
+
+#accordion-section-bard_pro h3:after {
+  color: #fff !important;
+}
+
+.customize-control-pro_options .control-lock {
+	display: none !important;
+}
+
+#customize-control-pro_version_ ul li p a {
+	padding: 0 !important;
+	background-color: transparent !important;
+	color: #0073aa !important;
+	box-shadow: none !important;
+}
+
+#customize-control-pro_version_ h3 span {
+	color: red;
+	font-weight: bold;
+}
+
+#customize-control-pro_version_logo {
+	margin-bottom: 30px !important;
+}
+
+/* Display Header Text Color */
+#customize-control-header_textcolor {
+	display: block !important;
+}

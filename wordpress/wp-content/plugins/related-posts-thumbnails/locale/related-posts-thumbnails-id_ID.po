@@ -1,0 +1,642 @@
+# Russian translation of Related-Posts-Thubmnails plugin
+# Copyright (C) 2010 M.I.Shaldybina
+# This file is distributed under the same license as the Related-Posts-Thubmnails package.
+# Maria Shaldybina <mary@shaldybina.com>, 2010
+msgid ""
+msgstr ""
+"Project-Id-Version: Related Posts Thubmnails 1.2.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-19 17:17-0700\n"
+"PO-Revision-Date: 2011-02-13 22:20+0700\n"
+"Last-Translator: Bejana <b@bejana.com>\n"
+"Language-Team: Bejana <b@bejana.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: related-posts-thumbnails.php:148
+#: related-posts-thumbnails.php:194
+#: related-posts-thumbnails.php:231
+#: related-posts-thumbnails.php:232
+#: related-posts-thumbnails.php:273
+#: related-posts-thumbnails.php:308
+#: related-posts-thumbnails.php:311
+#: related-posts-thumbnails.php:354
+#: related-posts-thumbnails.php:378
+msgid "Related Posts Thumbnails"
+msgstr "Related Posts Thumbnails"
+
+#: related-posts-thumbnails.php:148
+#: related-posts-thumbnails.php:194
+#: related-posts-thumbnails.php:231
+#: related-posts-thumbnails.php:232
+#: related-posts-thumbnails.php:273
+#: related-posts-thumbnails.php:308
+#: related-posts-thumbnails.php:311
+#: related-posts-thumbnails.php:354
+#: related-posts-thumbnails.php:378
+msgid "Related Posts Thumbs"
+msgstr "Related Posts Thumbs"
+
+#: related-posts-thumbnails.php:154
+#: related-posts-thumbnails.php:200
+#: related-posts-thumbnails.php:237
+#: related-posts-thumbnails.php:238
+#: related-posts-thumbnails.php:279
+#: related-posts-thumbnails.php:314
+#: related-posts-thumbnails.php:317
+#: related-posts-thumbnails.php:360
+#: related-posts-thumbnails.php:384
+msgid "No access"
+msgstr "Tidak ada akses"
+
+#: related-posts-thumbnails.php:170
+#: related-posts-thumbnails.php:222
+#: related-posts-thumbnails.php:261
+#: related-posts-thumbnails.php:263
+#: related-posts-thumbnails.php:305
+#: related-posts-thumbnails.php:354
+#: related-posts-thumbnails.php:358
+#: related-posts-thumbnails.php:403
+#: related-posts-thumbnails.php:428
+msgid "Settings updated"
+msgstr "Pengaturan telah diperbarui"
+
+#: related-posts-thumbnails.php:182
+#: related-posts-thumbnails.php:239
+#: related-posts-thumbnails.php:281
+#: related-posts-thumbnails.php:283
+#: related-posts-thumbnails.php:326
+#: related-posts-thumbnails.php:404
+#: related-posts-thumbnails.php:408
+#: related-posts-thumbnails.php:464
+#: related-posts-thumbnails.php:490
+msgid "Related Posts Thumbnails Settings"
+msgstr "Pengaturan Miniatur Tulisan Terkait"
+
+#: related-posts-thumbnails.php:188
+#: related-posts-thumbnails.php:245
+#: related-posts-thumbnails.php:287
+#: related-posts-thumbnails.php:289
+#: related-posts-thumbnails.php:332
+#: related-posts-thumbnails.php:410
+#: related-posts-thumbnails.php:414
+#: related-posts-thumbnails.php:470
+#: related-posts-thumbnails.php:496
+msgid "General Display Options"
+msgstr "Opsi-Opsi Tampilan Umum"
+
+#: related-posts-thumbnails.php:191
+msgid "Display options"
+msgstr "Opsi-Opsi Tampilan"
+
+#: related-posts-thumbnails.php:194
+#: related-posts-thumbnails.php:251
+#: related-posts-thumbnails.php:300
+#: related-posts-thumbnails.php:302
+#: related-posts-thumbnails.php:352
+#: related-posts-thumbnails.php:430
+#: related-posts-thumbnails.php:434
+#: related-posts-thumbnails.php:490
+#: related-posts-thumbnails.php:516
+msgid "Show on single posts only"
+msgstr "Tampilkan pada tulisan tunggal saja"
+
+#: related-posts-thumbnails.php:198
+#: related-posts-thumbnails.php:280
+#: related-posts-thumbnails.php:329
+#: related-posts-thumbnails.php:331
+#: related-posts-thumbnails.php:381
+#: related-posts-thumbnails.php:453
+#: related-posts-thumbnails.php:457
+#: related-posts-thumbnails.php:513
+#: related-posts-thumbnails.php:539
+msgid "Top text"
+msgstr "Teks atas"
+
+#: related-posts-thumbnails.php:204
+#: related-posts-thumbnails.php:286
+#: related-posts-thumbnails.php:335
+#: related-posts-thumbnails.php:337
+#: related-posts-thumbnails.php:387
+#: related-posts-thumbnails.php:459
+#: related-posts-thumbnails.php:463
+#: related-posts-thumbnails.php:519
+#: related-posts-thumbnails.php:545
+msgid "Number of similar posts to display"
+msgstr "Jumlah tulisan serupa yang ditampilkan"
+
+#: related-posts-thumbnails.php:212
+#: related-posts-thumbnails.php:360
+#: related-posts-thumbnails.php:409
+#: related-posts-thumbnails.php:411
+#: related-posts-thumbnails.php:461
+#: related-posts-thumbnails.php:519
+#: related-posts-thumbnails.php:530
+#: related-posts-thumbnails.php:586
+#: related-posts-thumbnails.php:621
+msgid "Style options"
+msgstr "Opsi-Opsi Gaya"
+
+#: related-posts-thumbnails.php:215
+#: related-posts-thumbnails.php:363
+#: related-posts-thumbnails.php:412
+#: related-posts-thumbnails.php:414
+#: related-posts-thumbnails.php:464
+#: related-posts-thumbnails.php:522
+#: related-posts-thumbnails.php:533
+#: related-posts-thumbnails.php:600
+#: related-posts-thumbnails.php:635
+msgid "Background color"
+msgstr "Warna latar"
+
+#: related-posts-thumbnails.php:221
+#: related-posts-thumbnails.php:369
+#: related-posts-thumbnails.php:418
+#: related-posts-thumbnails.php:420
+#: related-posts-thumbnails.php:470
+#: related-posts-thumbnails.php:528
+#: related-posts-thumbnails.php:539
+#: related-posts-thumbnails.php:606
+#: related-posts-thumbnails.php:641
+msgid "Background color on mouse over"
+msgstr "Warna latar ketika tetikus lewat"
+
+#: related-posts-thumbnails.php:227
+#: related-posts-thumbnails.php:375
+#: related-posts-thumbnails.php:424
+#: related-posts-thumbnails.php:426
+#: related-posts-thumbnails.php:476
+#: related-posts-thumbnails.php:534
+#: related-posts-thumbnails.php:545
+#: related-posts-thumbnails.php:612
+#: related-posts-thumbnails.php:647
+msgid "Border color"
+msgstr "Warna pinggiran"
+
+#: related-posts-thumbnails.php:233
+#: related-posts-thumbnails.php:381
+#: related-posts-thumbnails.php:430
+#: related-posts-thumbnails.php:432
+#: related-posts-thumbnails.php:482
+#: related-posts-thumbnails.php:540
+#: related-posts-thumbnails.php:551
+#: related-posts-thumbnails.php:618
+#: related-posts-thumbnails.php:653
+msgid "Font color"
+msgstr "Warna font"
+
+#: related-posts-thumbnails.php:239
+#: related-posts-thumbnails.php:387
+#: related-posts-thumbnails.php:436
+#: related-posts-thumbnails.php:438
+#: related-posts-thumbnails.php:488
+#: related-posts-thumbnails.php:546
+#: related-posts-thumbnails.php:557
+#: related-posts-thumbnails.php:624
+#: related-posts-thumbnails.php:659
+msgid "Font family"
+msgstr "Keluarga font"
+
+#: related-posts-thumbnails.php:245
+#: related-posts-thumbnails.php:393
+#: related-posts-thumbnails.php:442
+#: related-posts-thumbnails.php:444
+#: related-posts-thumbnails.php:494
+#: related-posts-thumbnails.php:552
+#: related-posts-thumbnails.php:563
+#: related-posts-thumbnails.php:630
+#: related-posts-thumbnails.php:665
+msgid "Font size"
+msgstr "Ukuran font"
+
+#: related-posts-thumbnails.php:251
+#: related-posts-thumbnails.php:399
+#: related-posts-thumbnails.php:448
+#: related-posts-thumbnails.php:450
+#: related-posts-thumbnails.php:500
+#: related-posts-thumbnails.php:558
+#: related-posts-thumbnails.php:569
+#: related-posts-thumbnails.php:636
+#: related-posts-thumbnails.php:671
+msgid "Text maximum length"
+msgstr "Panjang maksimum teks"
+
+#: related-posts-thumbnails.php:259
+#: related-posts-thumbnails.php:407
+#: related-posts-thumbnails.php:464
+#: related-posts-thumbnails.php:472
+#: related-posts-thumbnails.php:522
+#: related-posts-thumbnails.php:580
+#: related-posts-thumbnails.php:591
+#: related-posts-thumbnails.php:658
+#: related-posts-thumbnails.php:693
+msgid "Relation Builder Options"
+msgstr "Opsi Pembangun Kaitan"
+
+#: related-posts-thumbnails.php:262
+#: related-posts-thumbnails.php:410
+#: related-posts-thumbnails.php:467
+#: related-posts-thumbnails.php:475
+#: related-posts-thumbnails.php:525
+#: related-posts-thumbnails.php:583
+#: related-posts-thumbnails.php:594
+#: related-posts-thumbnails.php:661
+#: related-posts-thumbnails.php:696
+msgid "Relation based on"
+msgstr "Kaitan berdasarkan"
+
+#: related-posts-thumbnails.php:265
+#: related-posts-thumbnails.php:255
+#: related-posts-thumbnails.php:413
+#: related-posts-thumbnails.php:304
+#: related-posts-thumbnails.php:470
+#: related-posts-thumbnails.php:306
+#: related-posts-thumbnails.php:478
+#: related-posts-thumbnails.php:356
+#: related-posts-thumbnails.php:528
+#: related-posts-thumbnails.php:586
+#: related-posts-thumbnails.php:597
+#: related-posts-thumbnails.php:664
+#: related-posts-thumbnails.php:699
+msgid "Categories"
+msgstr "Kategori"
+
+#: related-posts-thumbnails.php:267
+#: related-posts-thumbnails.php:415
+#: related-posts-thumbnails.php:472
+#: related-posts-thumbnails.php:480
+#: related-posts-thumbnails.php:530
+#: related-posts-thumbnails.php:588
+#: related-posts-thumbnails.php:599
+#: related-posts-thumbnails.php:666
+#: related-posts-thumbnails.php:701
+msgid "Tags"
+msgstr "Tag"
+
+#: related-posts-thumbnails.php:269
+#: related-posts-thumbnails.php:417
+#: related-posts-thumbnails.php:474
+#: related-posts-thumbnails.php:482
+#: related-posts-thumbnails.php:532
+#: related-posts-thumbnails.php:590
+#: related-posts-thumbnails.php:601
+#: related-posts-thumbnails.php:668
+#: related-posts-thumbnails.php:703
+msgid "Categories and Tags"
+msgstr "Kategori dan Tag"
+
+#: related-posts-thumbnails.php:275
+msgid "Thumbnails options"
+msgstr "Opsi-Opsi Miniatur"
+
+#: related-posts-thumbnails.php:278
+#: related-posts-thumbnails.php:327
+#: related-posts-thumbnails.php:376
+#: related-posts-thumbnails.php:378
+#: related-posts-thumbnails.php:428
+#: related-posts-thumbnails.php:486
+#: related-posts-thumbnails.php:490
+#: related-posts-thumbnails.php:546
+#: related-posts-thumbnails.php:572
+msgid "Post-thumbnails name"
+msgstr "Nama miniatur-tulisan"
+
+#: related-posts-thumbnails.php:286
+#: related-posts-thumbnails.php:335
+#: related-posts-thumbnails.php:384
+#: related-posts-thumbnails.php:386
+#: related-posts-thumbnails.php:436
+#: related-posts-thumbnails.php:494
+#: related-posts-thumbnails.php:498
+#: related-posts-thumbnails.php:554
+#: related-posts-thumbnails.php:580
+msgid "Your theme has to support post-thumbnails to have more choices"
+msgstr "Tema Anda harus mendukung miniatur-tulisan untuk mendapatkan lebih banyak pilihan"
+
+#: related-posts-thumbnails.php:291
+#: related-posts-thumbnails.php:292
+#: related-posts-thumbnails.php:341
+#: related-posts-thumbnails.php:343
+#: related-posts-thumbnails.php:393
+#: related-posts-thumbnails.php:465
+#: related-posts-thumbnails.php:469
+#: related-posts-thumbnails.php:525
+#: related-posts-thumbnails.php:551
+msgid "Default image URL"
+msgstr "URL gambar bawaan"
+
+#: related-posts-thumbnails.php:299
+#: related-posts-thumbnails.php:422
+#: related-posts-thumbnails.php:479
+#: related-posts-thumbnails.php:487
+#: related-posts-thumbnails.php:537
+#: related-posts-thumbnails.php:597
+#: related-posts-thumbnails.php:608
+#: related-posts-thumbnails.php:675
+#: related-posts-thumbnails.php:710
+msgid "Save Changes"
+msgstr "Simpan Perubahan"
+
+#: related-posts-thumbnails.php:248
+#: related-posts-thumbnails.php:297
+#: related-posts-thumbnails.php:299
+#: related-posts-thumbnails.php:349
+#: related-posts-thumbnails.php:427
+#: related-posts-thumbnails.php:431
+#: related-posts-thumbnails.php:487
+#: related-posts-thumbnails.php:513
+msgid "Page type"
+msgstr "Tipe Halaman"
+
+#: related-posts-thumbnails.php:270
+#: related-posts-thumbnails.php:319
+#: related-posts-thumbnails.php:321
+#: related-posts-thumbnails.php:371
+#: related-posts-thumbnails.php:608
+#: related-posts-thumbnails.php:619
+#: related-posts-thumbnails.php:686
+#: related-posts-thumbnails.php:721
+msgid "All"
+msgstr "Semua"
+
+#: related-posts-thumbnails.php:298
+#: related-posts-thumbnails.php:324
+#: related-posts-thumbnails.php:342
+#: related-posts-thumbnails.php:347
+#: related-posts-thumbnails.php:373
+#: related-posts-thumbnails.php:391
+#: related-posts-thumbnails.php:349
+#: related-posts-thumbnails.php:375
+#: related-posts-thumbnails.php:393
+#: related-posts-thumbnails.php:399
+#: related-posts-thumbnails.php:425
+#: related-posts-thumbnails.php:443
+#: related-posts-thumbnails.php:471
+#: related-posts-thumbnails.php:483
+#: related-posts-thumbnails.php:501
+#: related-posts-thumbnails.php:475
+#: related-posts-thumbnails.php:487
+#: related-posts-thumbnails.php:505
+#: related-posts-thumbnails.php:531
+#: related-posts-thumbnails.php:543
+#: related-posts-thumbnails.php:561
+#: related-posts-thumbnails.php:557
+#: related-posts-thumbnails.php:569
+#: related-posts-thumbnails.php:596
+msgid "Thumbnails source"
+msgstr "Sumber Miniatur"
+
+#: related-posts-thumbnails.php:345
+#: related-posts-thumbnails.php:394
+#: related-posts-thumbnails.php:396
+#: related-posts-thumbnails.php:446
+#: related-posts-thumbnails.php:504
+#: related-posts-thumbnails.php:508
+#: related-posts-thumbnails.php:564
+#: related-posts-thumbnails.php:599
+msgid "Custom field name"
+msgstr "Nama ruas tersuai"
+
+#: related-posts-thumbnails.php:351
+#: related-posts-thumbnails.php:400
+#: related-posts-thumbnails.php:402
+#: related-posts-thumbnails.php:452
+#: related-posts-thumbnails.php:510
+#: related-posts-thumbnails.php:514
+#: related-posts-thumbnails.php:570
+#: related-posts-thumbnails.php:605
+msgid "Size"
+msgstr "Ukuran"
+
+#: related-posts-thumbnails.php:353
+#: related-posts-thumbnails.php:402
+#: related-posts-thumbnails.php:404
+#: related-posts-thumbnails.php:454
+#: related-posts-thumbnails.php:512
+#: related-posts-thumbnails.php:516
+#: related-posts-thumbnails.php:572
+#: related-posts-thumbnails.php:607
+msgid "Width"
+msgstr "Lebar"
+
+#: related-posts-thumbnails.php:354
+#: related-posts-thumbnails.php:403
+#: related-posts-thumbnails.php:405
+#: related-posts-thumbnails.php:455
+#: related-posts-thumbnails.php:513
+#: related-posts-thumbnails.php:517
+#: related-posts-thumbnails.php:573
+#: related-posts-thumbnails.php:608
+msgid "Height"
+msgstr "Tinggi"
+
+#: related-posts-thumbnails.php:426
+#: related-posts-thumbnails.php:483
+#: related-posts-thumbnails.php:491
+#: related-posts-thumbnails.php:541
+#: related-posts-thumbnails.php:601
+#: related-posts-thumbnails.php:612
+#: related-posts-thumbnails.php:679
+#: related-posts-thumbnails.php:714
+msgid "If you experience some problems with this plugin please let me know about it on <a href=\"http://wordpress.shaldybina.com/plugins/related-posts-thumbnails/\">Plugin's homepage</a>. If you think this plugin is awesome please vote on <a href=\"http://wordpress.org/extend/plugins/related-posts-thumbnails/\">Wordpress plugin page</a>. Thanks!"
+msgstr "Jika Anda mengalami beberapa masalah dengan plugin ini mohon beritahu saya tentang hal itu melalui <a href=\"http://wordpress.shaldybina.com/plugins/related-posts-thumbnails/\">halaman muka Plugin</a>. Jika Anda pikir plugin ini hebat mohon suarakan di <a href=\"http://wordpress.org/extend/plugins/related-posts-thumbnails/\">halaman plugin WordPress</a>. Terima kasih!"
+
+#: related-posts-thumbnails.php:290
+#: related-posts-thumbnails.php:292
+#: related-posts-thumbnails.php:335
+#: related-posts-thumbnails.php:413
+#: related-posts-thumbnails.php:417
+#: related-posts-thumbnails.php:473
+#: related-posts-thumbnails.php:499
+msgid "Automatically append to the post content"
+msgstr "Secara otomatis menambahkan ke konten tulisan"
+
+#: related-posts-thumbnails.php:293
+#: related-posts-thumbnails.php:295
+#: related-posts-thumbnails.php:338
+#: related-posts-thumbnails.php:416
+#: related-posts-thumbnails.php:420
+#: related-posts-thumbnails.php:476
+#: related-posts-thumbnails.php:502
+msgid "Or use <b>&lt;?php get_related_posts_thumbnails(); ?&gt;</b> in the Loop"
+msgstr "Atau pergunakan <b>&lt;?php get_related_posts_thumbnails(); ?&gt;</b> dalam Loop"
+
+#: related-posts-thumbnails.php:451
+#: related-posts-thumbnails.php:453
+#: related-posts-thumbnails.php:503
+#: related-posts-thumbnails.php:561
+#: related-posts-thumbnails.php:572
+#: related-posts-thumbnails.php:639
+#: related-posts-thumbnails.php:674
+msgid "Set 0 for no title"
+msgstr "Set 0 untuk tanpa judul"
+
+#: related-posts-thumbnails.php:455
+#: related-posts-thumbnails.php:457
+#: related-posts-thumbnails.php:507
+#: related-posts-thumbnails.php:565
+#: related-posts-thumbnails.php:576
+#: related-posts-thumbnails.php:643
+#: related-posts-thumbnails.php:678
+msgid "Excerpt maximum length"
+msgstr "Panjang maksimum cuplikan"
+
+#: related-posts-thumbnails.php:458
+#: related-posts-thumbnails.php:460
+#: related-posts-thumbnails.php:510
+#: related-posts-thumbnails.php:568
+#: related-posts-thumbnails.php:579
+#: related-posts-thumbnails.php:646
+#: related-posts-thumbnails.php:681
+msgid "Set 0 for no excerpt"
+msgstr "Set 0 untuk tanpa cuplikan"
+
+#: related-posts-thumbnails.php:530
+#: related-posts-thumbnails.php:538
+#: related-posts-thumbnails.php:588
+#: related-posts-thumbnails.php:661
+#: related-posts-thumbnails.php:672
+#: related-posts-thumbnails.php:739
+#: related-posts-thumbnails.php:774
+msgid "Title:"
+msgstr "Judul:"
+
+#: related-posts-thumbnails.php:464
+#: related-posts-thumbnails.php:514
+#: related-posts-thumbnails.php:572
+#: related-posts-thumbnails.php:583
+#: related-posts-thumbnails.php:650
+#: related-posts-thumbnails.php:685
+msgid "Text block height"
+msgstr "Tinggi blok teks"
+
+#: related-posts-thumbnails.php:342
+#: related-posts-thumbnails.php:420
+#: related-posts-thumbnails.php:424
+#: related-posts-thumbnails.php:480
+#: related-posts-thumbnails.php:506
+msgid "Developer mode"
+msgstr "Modus pengembang"
+
+#: related-posts-thumbnails.php:345
+#: related-posts-thumbnails.php:423
+#: related-posts-thumbnails.php:427
+#: related-posts-thumbnails.php:483
+#: related-posts-thumbnails.php:509
+msgid "This will add debugging information in HTML source"
+msgstr "Ini akan menambahkan informasi debug pada kode HTML"
+
+#: related-posts-thumbnails.php:322
+#: related-posts-thumbnails.php:325
+#: related-posts-thumbnails.php:368
+#: related-posts-thumbnails.php:392
+msgid "Wrong date"
+msgstr "Salah tanggal"
+
+#: related-posts-thumbnails.php:357
+#: related-posts-thumbnails.php:361
+#: related-posts-thumbnails.php:406
+#: related-posts-thumbnails.php:431
+msgid "Settings update failed"
+msgstr "Gagal memperbarui pengaturan"
+
+#: related-posts-thumbnails.php:434
+#: related-posts-thumbnails.php:438
+#: related-posts-thumbnails.php:494
+#: related-posts-thumbnails.php:520
+msgid "Categories on which related thumbnails will appear"
+msgstr "Kategori di mana miniatur terkait akan tampil"
+
+#: related-posts-thumbnails.php:440
+#: related-posts-thumbnails.php:444
+#: related-posts-thumbnails.php:500
+#: related-posts-thumbnails.php:526
+msgid "Categories that will appear in related thumbnails"
+msgstr "Kategori yang akan tampil dalam miniatur terkait"
+
+#: related-posts-thumbnails.php:446
+#: related-posts-thumbnails.php:450
+#: related-posts-thumbnails.php:506
+#: related-posts-thumbnails.php:532
+msgid "Include only posts after"
+msgstr "Ikutsertakan hanya tulisan setelah"
+
+#: related-posts-thumbnails.php:448
+#: related-posts-thumbnails.php:452
+#: related-posts-thumbnails.php:508
+#: related-posts-thumbnails.php:534
+msgid "Year"
+msgstr "Tahun"
+
+#: related-posts-thumbnails.php:448
+#: related-posts-thumbnails.php:452
+#: related-posts-thumbnails.php:508
+#: related-posts-thumbnails.php:534
+msgid "Month"
+msgstr "Bulan"
+
+#: related-posts-thumbnails.php:448
+#: related-posts-thumbnails.php:452
+#: related-posts-thumbnails.php:508
+#: related-posts-thumbnails.php:534
+msgid "Day"
+msgstr "Hari"
+
+#: related-posts-thumbnails.php:448
+#: related-posts-thumbnails.php:452
+#: related-posts-thumbnails.php:508
+#: related-posts-thumbnails.php:534
+msgid "Leave empty for all posts dates"
+msgstr "Biarkan kosong untuk semua tanggal tulisan"
+
+#: related-posts-thumbnails.php:592
+#: related-posts-thumbnails.php:603
+#: related-posts-thumbnails.php:670
+#: related-posts-thumbnails.php:705
+msgid "Random"
+msgstr "Acak"
+
+#: related-posts-thumbnails.php:521
+#: related-posts-thumbnails.php:577
+#: related-posts-thumbnails.php:612
+msgid "Theme resize url"
+msgstr "Url pengubah ukuran tema"
+
+#: related-posts-thumbnails.php:524
+#: related-posts-thumbnails.php:580
+#: related-posts-thumbnails.php:615
+msgid "If your theme resizes images, enter URL to its resizing PHP file"
+msgstr "Jika tema Anda mengubah ukuran gambar, masukkan URL berkas perubah gambar PHP-nya"
+
+#: related-posts-thumbnails.php:589
+#: related-posts-thumbnails.php:624
+msgid "Output style"
+msgstr "Gaya keluaran"
+
+#: related-posts-thumbnails.php:430
+#: related-posts-thumbnails.php:456
+msgid "Blocks"
+msgstr "Blok"
+
+#: related-posts-thumbnails.php:430
+#: related-posts-thumbnails.php:456
+msgid "List"
+msgstr "Daftar"
+
+#: related-posts-thumbnails.php:596
+#: related-posts-thumbnails.php:631
+msgid "Turn off plugin styles"
+msgstr "Nonaktifkan gaya plugin"
+
+#: related-posts-thumbnails.php:586
+msgid "Show posts only with thumbnails"
+msgstr "Tampilkan hanya tulisan berminiatur"
+
+#: related-posts-thumbnails.php:589
+msgid "Only posts with assigned Featured Image"
+msgstr "Hanya tulisan dengan penetapan Gambar Fitur"
+

@@ -1,0 +1,7 @@
+
+# BEGIN INDEX
+# Las directivas (líneas) entre "BEGIN INDEX" y "END INDEX" son
+# generados dinámicamente, y sólo deben ser modificados a través de los filtros de WordPress.
+# Cualquier cambio en las directivas entre estos marcadores se sobrescribirá.
+Options -Indexes
+# END INDEX
