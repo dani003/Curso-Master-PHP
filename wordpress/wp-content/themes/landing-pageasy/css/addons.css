@@ -1,0 +1,65 @@
+/*
+ * "Install Plugins" page styles
+ */
+.bclwp-addons-tabs-wrap { text-align: center }
+.bclwp-addons-tabs { list-style: none; border: 1px solid #ddd; border-radius: 4px; margin: 40px auto 0; overflow: hidden; display: inline-block; }
+.bclwp-addons-tabs li { float: left; width: 200px; border-right: 1px solid #ddd; margin: 0!important; background: #fff; }
+.bclwp-addons-tabs li:last-child { border-right: 0 }
+.bclwp-addons-tabs li a { font-size: 14px; font-weight: bold; color: #5a5a5a; text-transform: uppercase; display: block; padding: 15px 10px; text-decoration: none; outline: none!important; transition: all .25s ease-in-out; }
+.bclwp-addons-tabs li a:hover { color: #51B4D3 }
+.bclwp-addons-tabs li.active { background: #51B4D3 }
+.bclwp-addons-tabs li.active a { color: #fff!important }
+.bclwp-addons-header { margin: 25px 6.5% 30px; text-align: center; }
+.bclwp-addons-header h2 { margin: 0 0 15px; padding: 0; font-size: 48px; font-weight: 400; letter-spacing: -0.05em; line-height: 1.1; }
+.bclwp-addons-header > p { margin: 0; padding: 0; font-size: 21px; font-weight: 300; line-height: 1.3; color: #777; }
+.bclwp-addons-header a { text-decoration: none }
+.bclwp-addons-list { max-width: 1400px; margin: 0 auto; list-style: none; }
+li.bclwp-addon { border: 5px solid #c5c5c5; background-color: #fff; box-sizing: border-box; width: calc(33.3333% - 14px);	margin: 0 20px 20px 0; float: left; }
+li.bclwp-addon.visible { display: block }
+li.bclwp-addon:nth-child(3n) { margin-right: 0 }
+li.bclwp-addon:nth-child(3n+1) { clear: left }
+.bclwp-addon.active { border-color: #7ad03a }
+.bclwp-addon .top { position: relative; padding: 20px; text-align: center; }
+li.bclwp-addon .top { min-height: 345px }
+.bclwp-addon .img { width: 100px; margin: 0 0 1em; border-radius: 3px; }
+.bclwp-addon .info { margin: 0 }
+.bclwp-addon .title { margin: 0; font-size: 1.5em; line-height: 1.2; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bclwp-addon .status { display: inline-block; margin: 1em 0 0; border: 1px solid; padding: 6px 7px; line-height: 1; border-radius: 3px; text-decoration: none; }
+.bclwp-addon .status.active { color: #fff; border-color: #7ad03a; background-color: #7ad03a; }
+.bclwp-addon .status.inactive { color: #fff; border-color: #ffba00; background-color: #ffba00; }
+.bclwp-addon .status.not-installed { color: #fff; border-color: #a00; background-color: #a00; }
+div.bclwp-addon .desc { max-width: 350px; margin-left: auto; margin-right: auto; }
+.bclwp-addon .author { margin-bottom: 0 }
+.bclwp-addon .bottom { clear: both; overflow: hidden; border-top: 1px solid #e5e5e5; padding: 10px; text-align: center; background-color: #fafafa; }
+.bclwp-addon .bottom > .button { margin-bottom: 0 }
+.tgmpa .subsubsub { float: none }
+@media (max-width: 700px) { 
+	.bclwp-addons-tabs li { clear: left; border-right: 0; border-bottom: 1px solid #ddd; }
+	.bclwp-addons-tabs li:last-child { border-bottom: 0 }
+	li.bclwp-addon .top { min-height: 1px }
+	li.bclwp-addon { float: none!important; width: 100%!important; max-width: 450px!important; margin: 0 auto 10px!important; }
+}
+@media screen and (max-width: 500px) { 
+	.bclwp-addons-header h2 { font-size: 36px }
+}
+.loader { margin: 200px auto; font-size: 25px; width: 1em; height: 1em; border-radius: 50%; position: relative; text-indent: -9999em; -webkit-animation: load5 1.1s infinite ease; animation: load5 1.1s infinite ease; -webkit-transform: translateZ(); transform: translateZ(); }
+@-webkit-keyframes load5 { 
+	0%, 100% { box-shadow: 0em -2.6em 0em 0em #000000, 1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2), 2.5em 0em 0 0em rgba(0, 0, 0, 0.2), 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.2), 0em 2.5em 0 0em rgba(0, 0, 0, 0.2), -1.8em 1.8em 0 0em rgba(0, 0, 0, 0.2), -2.6em 0em 0 0em rgba(0, 0, 0, 0.5), -1.8em -1.8em 0 0em rgba(0, 0, 0, 0.7) }
+	12.5% { box-shadow: 0em -2.6em 0em 0em rgba(0, 0, 0, 0.7), 1.8em -1.8em 0 0em #000000, 2.5em 0em 0 0em rgba(0, 0, 0, 0.2), 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.2), 0em 2.5em 0 0em rgba(0, 0, 0, 0.2), -1.8em 1.8em 0 0em rgba(0, 0, 0, 0.2), -2.6em 0em 0 0em rgba(0, 0, 0, 0.2), -1.8em -1.8em 0 0em rgba(0, 0, 0, 0.5) }
+	25% { box-shadow: 0em -2.6em 0em 0em rgba(0, 0, 0, 0.5), 1.8em -1.8em 0 0em rgba(0, 0, 0, 0.7), 2.5em 0em 0 0em #000000, 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.2), 0em 2.5em 0 0em rgba(0, 0, 0, 0.2), -1.8em 1.8em 0 0em rgba(0, 0, 0, 0.2), -2.6em 0em 0 0em rgba(0, 0, 0, 0.2), -1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2) }
+	37.5% { box-shadow: 0em -2.6em 0em 0em rgba(0, 0, 0, 0.2), 1.8em -1.8em 0 0em rgba(0, 0, 0, 0.5), 2.5em 0em 0 0em rgba(0, 0, 0, 0.7), 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.2), 0em 2.5em 0 0em rgba(0, 0, 0, 0.2), -1.8em 1.8em 0 0em rgba(0, 0, 0, 0.2), -2.6em 0em 0 0em rgba(0, 0, 0, 0.2), -1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2) }
+	50% { box-shadow: 0em -2.6em 0em 0em rgba(0, 0, 0, 0.2), 1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2), 2.5em 0em 0 0em rgba(0, 0, 0, 0.5), 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.7), 0em 2.5em 0 0em #000000, -1.8em 1.8em 0 0em rgba(0, 0, 0, 0.2), -2.6em 0em 0 0em rgba(0, 0, 0, 0.2), -1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2) }
+	62.5% { box-shadow: 0em -2.6em 0em 0em rgba(0, 0, 0, 0.2), 1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2), 2.5em 0em 0 0em rgba(0, 0, 0, 0.2), 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.5), 0em 2.5em 0 0em rgba(0, 0, 0, 0.7), -1.8em 1.8em 0 0em #000000, -2.6em 0em 0 0em rgba(0, 0, 0, 0.2), -1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2) }
+	75% { box-shadow: 0em -2.6em 0em 0em rgba(0, 0, 0, 0.2), 1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2), 2.5em 0em 0 0em rgba(0, 0, 0, 0.2), 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.2), 0em 2.5em 0 0em rgba(0, 0, 0, 0.5), -1.8em 1.8em 0 0em rgba(0, 0, 0, 0.7), -2.6em 0em 0 0em #000000, -1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2) }
+	87.5% { box-shadow: 0em -2.6em 0em 0em rgba(0, 0, 0, 0.2), 1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2), 2.5em 0em 0 0em rgba(0, 0, 0, 0.2), 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.2), 0em 2.5em 0 0em rgba(0, 0, 0, 0.2), -1.8em 1.8em 0 0em rgba(0, 0, 0, 0.5), -2.6em 0em 0 0em rgba(0, 0, 0, 0.7), -1.8em -1.8em 0 0em #000000 }
+}
+@keyframes load5 { 
+	0%, 100% { box-shadow: 0em -2.6em 0em 0em #000000, 1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2), 2.5em 0em 0 0em rgba(0, 0, 0, 0.2), 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.2), 0em 2.5em 0 0em rgba(0, 0, 0, 0.2), -1.8em 1.8em 0 0em rgba(0, 0, 0, 0.2), -2.6em 0em 0 0em rgba(0, 0, 0, 0.5), -1.8em -1.8em 0 0em rgba(0, 0, 0, 0.7) }
+	12.5% { box-shadow: 0em -2.6em 0em 0em rgba(0, 0, 0, 0.7), 1.8em -1.8em 0 0em #000000, 2.5em 0em 0 0em rgba(0, 0, 0, 0.2), 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.2), 0em 2.5em 0 0em rgba(0, 0, 0, 0.2), -1.8em 1.8em 0 0em rgba(0, 0, 0, 0.2), -2.6em 0em 0 0em rgba(0, 0, 0, 0.2), -1.8em -1.8em 0 0em rgba(0, 0, 0, 0.5) }
+	25% { box-shadow: 0em -2.6em 0em 0em rgba(0, 0, 0, 0.5), 1.8em -1.8em 0 0em rgba(0, 0, 0, 0.7), 2.5em 0em 0 0em #000000, 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.2), 0em 2.5em 0 0em rgba(0, 0, 0, 0.2), -1.8em 1.8em 0 0em rgba(0, 0, 0, 0.2), -2.6em 0em 0 0em rgba(0, 0, 0, 0.2), -1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2) }
+	37.5% { box-shadow: 0em -2.6em 0em 0em rgba(0, 0, 0, 0.2), 1.8em -1.8em 0 0em rgba(0, 0, 0, 0.5), 2.5em 0em 0 0em rgba(0, 0, 0, 0.7), 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.2), 0em 2.5em 0 0em rgba(0, 0, 0, 0.2), -1.8em 1.8em 0 0em rgba(0, 0, 0, 0.2), -2.6em 0em 0 0em rgba(0, 0, 0, 0.2), -1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2) }
+	50% { box-shadow: 0em -2.6em 0em 0em rgba(0, 0, 0, 0.2), 1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2), 2.5em 0em 0 0em rgba(0, 0, 0, 0.5), 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.7), 0em 2.5em 0 0em #000000, -1.8em 1.8em 0 0em rgba(0, 0, 0, 0.2), -2.6em 0em 0 0em rgba(0, 0, 0, 0.2), -1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2) }
+	62.5% { box-shadow: 0em -2.6em 0em 0em rgba(0, 0, 0, 0.2), 1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2), 2.5em 0em 0 0em rgba(0, 0, 0, 0.2), 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.5), 0em 2.5em 0 0em rgba(0, 0, 0, 0.7), -1.8em 1.8em 0 0em #000000, -2.6em 0em 0 0em rgba(0, 0, 0, 0.2), -1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2) }
+	75% { box-shadow: 0em -2.6em 0em 0em rgba(0, 0, 0, 0.2), 1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2), 2.5em 0em 0 0em rgba(0, 0, 0, 0.2), 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.2), 0em 2.5em 0 0em rgba(0, 0, 0, 0.5), -1.8em 1.8em 0 0em rgba(0, 0, 0, 0.7), -2.6em 0em 0 0em #000000, -1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2) }
+	87.5% { box-shadow: 0em -2.6em 0em 0em rgba(0, 0, 0, 0.2), 1.8em -1.8em 0 0em rgba(0, 0, 0, 0.2), 2.5em 0em 0 0em rgba(0, 0, 0, 0.2), 1.75em 1.75em 0 0em rgba(0, 0, 0, 0.2), 0em 2.5em 0 0em rgba(0, 0, 0, 0.2), -1.8em 1.8em 0 0em rgba(0, 0, 0, 0.5), -2.6em 0em 0 0em rgba(0, 0, 0, 0.7), -1.8em -1.8em 0 0em #000000 }
+}

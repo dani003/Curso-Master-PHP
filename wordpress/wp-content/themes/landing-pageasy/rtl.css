@@ -1,0 +1,37 @@
+/*
+Theme Name: landing Lite
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+blockquote:after { right: 0 }
+pre { margin: 5px 0 20px 0 }
+dt { float: right; clear: right; text-align: left; }
+dd { margin: 0 110px 0 0; padding: 0 0 0.5em 0; }
+.widget-header { float: left }
+#navigation ul li { float: right; }
+.toggle-menu .toggle-caret { left: 0 }
+.top { float: left; }
+.toplink { float: left; }
+.post-info > span { float: right; margin-right: 0; margin-left: 7px; }
+.post-info > span:last-child { margin-left: 0; }
+.post-info > span > span { margin-right: 0; margin-left: 7px; }
+a#pull:after { right: inherit; left: 2% }
+a#pull { text-align: right }
+.social-profile-icons ul li { float: right; margin-right: 0!important; margin-left: 8px!important; }
+#featured-thumbnail { float: right; margin-right: 0; margin-left: 20px; }
+.related-posts #featured-thumbnail { margin-left: 0 }
+.woocommerce div.product .woocommerce-tabs ul.tabs { padding-right: 15px }
+.woocommerce .woocommerce-error .button, .woocommerce .woocommerce-info .button, .woocommerce .woocommerce-message .button { float: left }
+.site-branding, .post-date-landing, .pagination .current, .pagination a, .single-title, #commentform input#submit, #commentform p label, .comment time, .reply a { float: right; }
+.pagination .current, .pagination a { margin-right: 0; margin-left: 10px; }
+.readMore { float: left; }
+.widget li { margin-left: 0; margin-right: 15px; }
+#comments .avatar { float: right; margin-right: 0; margin-left: 20px; }
+.postauthor img { float: right; margin: 5px 0 15px 25px; }
+.article ul, .article ol { margin: 1.5em 1.9em 1.571em 0; }
+ol.commentlist { margin-right: 0; }
