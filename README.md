@@ -5,9 +5,9 @@ PHP desde cero, bases de datos, SQL, MySQL, POO, MVC, Librerías, Laravel 5, 6 y
 ## Pre-Requisitos 
 
 * WAMP
-_ Php 7.2
-_ Apache 2.4
-_ MySQL 5.7
+- Php 7.2
+- Apache 2.4
+- MySQL 5.7
 
 ## Secciones 
 
@@ -34,6 +34,13 @@ La conexion a la base de datos en este proyecto se encuentra en el archivo inclu
 | Entradas_con_nombres  | Similar a la tabla entradas | id, titulo, autor, categoria  |
 
 ### Aprendiendo librerias-Php
+Se muestran cuatro librerias basicas de php (para el uso de estas librerias es necesario el uso de composer)
+
+* Depurar
+* Generar pdf (spipu/html2pdf)
+* Manipular imagenes (masterexploder/phpthumb)
+* Paginacion (stefangabos/zebra_pagination)
+
 ### Aprendiento Php-poo
 ### Proyecto Php-poo
 ### Aprendiendo Laravel
