@@ -92,7 +92,7 @@ DB_PASSWORD=null
 | users  | id, role, name, surname, nick, email, password, image, created_at, updated_at, remember_token |
 
 ### Aprendiendo Symfony
-Conceptos basicos de symfony a traves de un proyecto en el que se crean, editan y eliminan animales de l base de datos.
+Conceptos basicos de symfony a traves de un proyecto en el que se crean, editan y eliminan animales de l base de datos a traves de la url.
 
 #### env.local
 ```
@@ -135,4 +135,18 @@ El animal seleccionado con el id se actualiza a los valores harcodeados
 ```
 
 ### Proyecto Symfony
+Proyecto que consiste en un CRUD de tareas
+
+#### env.local
+```
+DATABASE_URL=mysql://root@127.0.0.1:3306/symfony_master
+```
+#### Base de datos
+
+| Taba | Campos |
+| ------------- |------------- |
+| tasks  | id, user_id, title, content, priority, hours, created_at   |
+| users  | id, role, name, surname, email, password, created_at  |
+
+
 ### Wordpress
