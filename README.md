@@ -86,11 +86,53 @@ DB_PASSWORD=null
 
 | Taba | Campos |
 | ------------- |------------- |
-| comments  | id, nombre, precio, descripcion, fecha   |
-| images  | id, nombre, email, password  |
-| likes  | id, nombre, precio, descripcion, fecha   |
-| users  | id, nombre, email, password  |
+| comments  | id, user_id, image_id, content, created_at, updated_at   |
+| images  | id, user_id, image_path, description, created_at, updated_at   |
+| likes  | id, user_id, image_id, created_at, updated_at   |
+| users  | id, role, name, surname, nick, email, password, image, created_at, updated_at, remember_token |
 
 ### Aprendiendo Symfony
+Conceptos basicos de symfony a traves de un proyecto en el que se crean, editan y eliminan animales de l base de datos.
+
+#### env.local
+```
+DATABASE_URL="mysql://root@127.0.0.1:3306/aprendiendo-sf4"
+```
+#### Base de datos
+
+| Taba | Campos |
+| ------------- |------------- |
+| animales  | id, tipo, color, raza   |
+| usuarios  | id, nombre, apellidos, email, password  |
+
+#### Endpoints
+
+Url base: http://localhost:8080/master-php/aprendiendo-symfony/public
+
+Inicio
+```
+/inicio
+```
+Eliminar animal a traves del id
+```
+/animal/delete/{id}
+```
+Listar animales
+```
+/animal/index
+```
+Traer animal a traves de su id
+```
+/animal/{id}
+```
+Crear animal
+```
+/crear-animal/
+```
+El animal seleccionado con el id se actualiza a los valores harcodeados
+```
+/animal/update/{id}
+```
+
 ### Proyecto Symfony
 ### Wordpress
