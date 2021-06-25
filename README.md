@@ -5,9 +5,9 @@ PHP desde cero, bases de datos, SQL, MySQL, POO, MVC, Librerías, Laravel 5, 6 y
 ## Pre-Requisitos 
 
 * WAMP
-- Php 7.2
-- Apache 2.4
-- MySQL 5.7
+  - Php 7.2
+  - Apache 2.4
+  - MySQL 5.7
 
 ## Secciones 
 
@@ -69,6 +69,28 @@ DB_PASSWORD=null
 
 
 ### Proyecto Laravel
+
+Proyecto en laravel que consiste en una replica simple de instagram.
+
+#### evn.local 
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel_master
+DB_USERNAME=root
+DB_PASSWORD=null
+```
+
+#### Base de datos
+
+| Taba | Campos |
+| ------------- |------------- |
+| comments  | id, nombre, precio, descripcion, fecha   |
+| images  | id, nombre, email, password  |
+| likes  | id, nombre, precio, descripcion, fecha   |
+| users  | id, nombre, email, password  |
+
 ### Aprendiendo Symfony
 ### Proyecto Symfony
 ### Wordpress
