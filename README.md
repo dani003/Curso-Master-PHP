@@ -42,8 +42,32 @@ Se muestran cuatro librerias basicas de php (para el uso de estas librerias es n
 * Paginacion (stefangabos/zebra_pagination)
 
 ### Aprendiento Php-poo
+Conceptos basicos de programacion orientada a objetos (clases, herencia, etc...)
+
 ### Proyecto Php-poo
+
+Proyecto de una tienda de camisetas. Se utiliza MVC.
+
 ### Aprendiendo Laravel
+
+#### evn.local 
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=fruteria_master
+DB_USERNAME=root
+DB_PASSWORD=null
+
+```
+#### Base de datos
+
+| Taba | Campos |
+| ------------- |------------- |
+| Usuarios  | id, nombre, precio, descripcion, fecha   |
+| Frutas  | id, nombre, email, password  |
+
+
 ### Proyecto Laravel
 ### Aprendiendo Symfony
 ### Proyecto Symfony
