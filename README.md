@@ -26,7 +26,7 @@ Proyecto que consisten en un blog de videojuegos. Contiene menu de navegacion, b
 #### Conexion base de datos
 La conexion a la base de datos en este proyecto se encuentra en el archivo includes/conexion.php. La base de datos fue creada de forma local a traves de phphMyAdmin con el nombre "blog_master", sus tablas son las siguientes:
 
-| Taba | Descripcion | Campos |
+| Tabla | Descripcion | Campos |
 | ------------- | ------------- |------------- |
 | Usuarios  | Usuarios registrados en el blog  | id, nombre, apellidos, email, password, fecha   |
 | Categorias  | Categorias de videojuegos  | id, nombre  |
@@ -62,7 +62,7 @@ DB_PASSWORD=null
 ```
 #### Base de datos
 
-| Taba | Campos |
+| Tabla | Campos |
 | ------------- |------------- |
 | Usuarios  | id, nombre, precio, descripcion, fecha   |
 | Frutas  | id, nombre, email, password  |
@@ -84,7 +84,7 @@ DB_PASSWORD=null
 
 #### Base de datos
 
-| Taba | Campos |
+| Tabla | Campos |
 | ------------- |------------- |
 | comments  | id, user_id, image_id, content, created_at, updated_at   |
 | images  | id, user_id, image_path, description, created_at, updated_at   |
@@ -100,7 +100,7 @@ DATABASE_URL="mysql://root@127.0.0.1:3306/aprendiendo-sf4"
 ```
 #### Base de datos
 
-| Taba | Campos |
+| Tabla | Campos |
 | ------------- |------------- |
 | animales  | id, tipo, color, raza   |
 | usuarios  | id, nombre, apellidos, email, password  |
